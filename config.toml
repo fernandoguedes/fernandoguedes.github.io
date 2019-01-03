@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313"
+baseurl = "http://fguedes.me"
 title = "~fguedes 🕱"
 theme = "ghostwriter"
 languageCode = "en-us"
