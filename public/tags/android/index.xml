@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on ~fguedes 🕱</title>
+    <link>http://fguedes.me/tags/android/</link>
+    <description>Recent content in Android on ~fguedes 🕱</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Luís Fernando Guedes</copyright>
+    <lastBuildDate>Wed, 08 Apr 2015 18:31:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://fguedes.me/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acessando SSH via Android</title>
+      <link>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</link>
+      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
+      
+      <guid>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</guid>
+      <description>Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?
+E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um dashboard que pudesse ser acessado via browser?
+Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.</description>
+    </item>
+    
+  </channel>
+</rss>
