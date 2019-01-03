@@ -1,0 +1,55 @@
+baseurl = "http://localhost:1313"
+title = "~fguedes 🕱"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Luís Fernando Guedes"
+#googleAnalytics = "XXX"
+#disqusShortname = "XXX"
+
+[Author]
+    name = "Luís Fernando Guedes"
+    profile = "https://plus.google.com/u/0/+LuísFernandoGuedes"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Luís Fernando Guedes"
+    description = "Software Engineer"
+    github = "https://github.com/fernandoguedes"
+    gitlab = "https://gitlab.com/fguedes"
+    linkedin = "https://linkedin.com/in/lfernandoguedes/"
+    stackoverflow = "https://pt.stackoverflow.com/users/11940/lu%c3%ads-fernando-guedes"
+    email = "lfernandoguedes@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+#[[menu.main]]
+#    name = "Blog"
+#    url = "/"
+#    weight = 1
+#
+#[[menu.main]]
+#    name = "Projects"
+#    url = "/project/"
+#    weight = 2
+#
+#[[menu.main]]
+#    name = "Contact"
+#    url = "/page/contact/"
+#    weight = 3
+#
+#[[menu.main]]
+#    name = "About"
+#    url = "/page/about/"
+#    weight = 4
