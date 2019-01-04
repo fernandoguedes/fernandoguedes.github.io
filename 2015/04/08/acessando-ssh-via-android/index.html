@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Acessando SSH via Android &middot; Luís Fernando Guedes</title>
+        <meta name="description" content="Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?
+E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um dashboard que pudesse ser acessado via browser?
+Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.53" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Acessando SSH via Android">
+<meta property="og:description" content="Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?
+E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um dashboard que pudesse ser acessado via browser?
+Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://fguedes.me/2015/04/08/acessando-ssh-via-android/">
+        <link rel="stylesheet" href="http://fguedes.medist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="~fguedes 🕱" href="http://fguedes.me">~fguedes 🕱</a>
+                            </h1>
+                        
+                        <a class="button-square" href="http://fguedes.meindex.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" title="Gitlab" href="https://gitlab.com/fguedes">
+                                <i class="fa fa-gitlab"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/fernandoguedes">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" title="Stack Overflow" href="https://pt.stackoverflow.com/users/11940/lu%c3%ads-fernando-guedes">
+                                <i class="fa fa-stack-overflow"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" title="LinkedIn" href="https://linkedin.com/in/lfernandoguedes/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" title="Email" href="mailto:lfernandoguedes@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Acessando SSH via Android</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-04-08" itemprop="datePublished">Apr 8, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://plus.google.com/u/0/&#43;Lu%c3%adsFernandoGuedes" itemprop="url" rel="author">Luís Fernando Guedes</a>
+            </span>
+        </span>
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    
+
+<p>Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?</p>
+
+<p>E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um <em>dashboard</em> que pudesse ser acessado via browser?</p>
+
+<p>Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.</p>
+
+<h3 id="instalando-o-app-e-gerando-a-chave-pública-ssh-key">Instalando o app e gerando a chave pública (ssh-key)</h3>
+
+<p>Entre os diversos apps que eu testei, o mais simples e objetivo foi o <a href="https://play.google.com/store/apps/details?id=com.anstudios.ssh">SSH Client</a>, por isso o escolhi.</p>
+
+<p>Primeiramente, é necessário gerar uma chave pública no seu Android. Ela será usada pelo seu servidor para autorizar o acesso do seu dispositivo à ele.</p>
+
+<p>Abra o aplicativo</p>
+
+<p><em>Tip: clique na imagem para visualizá-la inteira</em></p>
+
+<div class="post-image" style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
+    <img class="post-image" src="/assets/2015-04-08/ss_1.png" />
+</div>
+
+<p>Clique no menu, gerar.</p>
+
+<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
+    <img class="post-image" src="/assets/2015-04-08/ss_2.png" />
+</div>
+<br />
+Siga os passos, escolha o nome, a forma de criptografia e senha, se desejar.
+
+<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
+    <img class="post-image" src="/assets/2015-04-08/ss_3.png" />
+</div>
+<br />
+Clique no menu novamente, e copie a chave pública.
+
+<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
+    <img class="post-image" src="/assets/2015-04-08/ss_4.png" />
+</div>
+<br />
+
+### Servidor
+
+Para conseguir acessar, em definitivo, você precisa adicionar o acesso à chave ao servidor.
+
+Com acesso root, adicione a chave gerada no Android ao arquivo que se encontra em ~/.ssh/authorized_keys, feito isso, o acesso está liberado, enjoy!
+
+<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
+    <img class="post-image" src="/assets/2015-04-08/ss_5.png" />
+</div>
+
+<div id="image-modal"></div>
+
+<p><link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+    $(&lsquo;.post-image&rsquo;).on(&lsquo;click&rsquo;, function() {
+        var src = $(this).attr(&lsquo;src&rsquo;);
+    var img = &lsquo;<img src="{src}"/>&rsquo;.replace(&lsquo;{src}&rsquo;, src);
+    $(&lsquo;#image-modal&rsquo;).html(img);
+    $(&lsquo;#image-modal&rsquo;).dialog({
+        modal: true
+    });
+    $(&lsquo;.ui-dialog-titlebar&rsquo;).removeClass(&lsquo;ui-widget-header&rsquo;);
+    });
+</script></p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/ssh/">ssh</a>, 
+            
+                <a href="/tags/software-livre/">software livre</a>, 
+            
+                <a href="/tags/android/">android</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Acessando%20SSH%20via%20Android&url=http%3a%2f%2ffguedes.me%2f2015%2f04%2f08%2facessando-ssh-via-android%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ffguedes.me%2f2015%2f04%2f08%2facessando-ssh-via-android%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2ffguedes.me%2f2015%2f04%2f08%2facessando-ssh-via-android%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="~fguedes 🕱" href="http://fguedes.me">~fguedes 🕱</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2018 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="http://fguedes.mejs/jquery-1.11.3.min.js"></script>
+        <script src="http://fguedes.mejs/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="http://fguedes.mejs/scripts.js"></script>
+    </body>
+</html>
+

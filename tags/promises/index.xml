@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Promises on ~fguedes 🕱</title>
+    <link>http://fguedes.me/tags/promises/</link>
+    <description>Recent content in Promises on ~fguedes 🕱</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Luís Fernando Guedes</copyright>
+    <lastBuildDate>Fri, 15 Jan 2016 18:31:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://fguedes.me/tags/promises/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dica: Vários promises simplificados com o $q no AngularJS</title>
+      <link>http://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</link>
+      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
+      
+      <guid>http://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</guid>
+      <description>O propósito dessa dica é abordar de forma superficial sobre como disparar diversas chamadas async e aguarda-lás, retornando todas conjuntamente utilizando o $q. Esse tipo de abordagem é útil quando temos uma dezena de microserviços e precisamos fazer alguma ação com o retorno deles de forma conjunta.
+O AngularJS por padrão utiliza em suas Promises uma lib que se chama $q, como se trata de um padrão é bem fácil usar a mesma técnica com qualquer outra lib ou até mesmo com a API nativa.</description>
+    </item>
+    
+  </channel>
+</rss>
