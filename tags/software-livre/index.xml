@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Livre on ~fguedes 🕱</title>
-    <link>http://fguedes.me/tags/software-livre/</link>
+    <link>https://fguedes.me/tags/software-livre/</link>
     <description>Recent content in Software Livre on ~fguedes 🕱</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
     <lastBuildDate>Wed, 08 Apr 2015 18:31:09 +0000</lastBuildDate>
     
-	<atom:link href="http://fguedes.me/tags/software-livre/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fguedes.me/tags/software-livre/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Acessando SSH via Android</title>
-      <link>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</link>
+      <link>https://fguedes.me/2015/04/08/acessando-ssh-via-android/</link>
       <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</guid>
+      <guid>https://fguedes.me/2015/04/08/acessando-ssh-via-android/</guid>
       <description>Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?
 E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um dashboard que pudesse ser acessado via browser?
 Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.</description>
@@ -25,10 +25,10 @@ Então, comecei a pesquisar meios através do Android de fazer isso, e vou compa
     
     <item>
       <title>Podcasts que todo programador deve (ria) conhecer</title>
-      <link>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</link>
+      <link>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</link>
       <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
+      <guid>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
       <description>&lt;p&gt;Todos nós sabemos que devido à nossa rotina diária, acabamos ficando muito tempo parados, seja em um engarrafamento, em uma fila &lt;del&gt;gigantesca&lt;/del&gt; de banco, ou (como no meu caso), esperando ônibus.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34;&gt;&lt;img src=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34; alt=&#34;Podcasts para programadores&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -40,10 +40,10 @@ Então, comecei a pesquisar meios através do Android de fazer isso, e vou compa
     
     <item>
       <title>Conheça o Alien Arena, um jogo FPS para Linux</title>
-      <link>http://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</link>
+      <link>https://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</link>
       <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</guid>
+      <guid>https://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</guid>
       <description>Recentemente andei pesquisando algum jogo para dar uma relaxada nas horas vagas e encontrei o Alien Arena, na minha opinião - apesar de não ser um expert em jogos - achei os gráficos de altíssima qualidade, com uma boa jogabilidade (rápida e suave), e ainda, existem mais de 60 mapas (!).
 
 Sobre o jogo Como dito no título, o jogo é em FPS e os personagens são em sua maioria seres extra-terrestres com itens futurísticos, tornando-o ainda mais original.</description>

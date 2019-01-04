@@ -3,398 +3,398 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://fguedes.me/2018/01/10/11-cenas-de-filmes/</loc>
+    <loc>https://fguedes.me/2018/01/10/11-cenas-de-filmes/</loc>
     <lastmod>2018-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</loc>
+    <loc>https://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</loc>
+    <loc>https://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</loc>
     <lastmod>2016-01-15T18:31:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2015/11/10/tres-meses-de-blueticket-e-floripa/</loc>
+    <loc>https://fguedes.me/2015/11/10/tres-meses-de-blueticket-e-floripa/</loc>
     <lastmod>2015-11-10T18:31:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/</loc>
+    <loc>https://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/</loc>
     <lastmod>2015-05-29T18:31:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</loc>
+    <loc>https://fguedes.me/2015/04/08/acessando-ssh-via-android/</loc>
     <lastmod>2015-04-08T18:31:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2014/01/18/relato-de-viagem-ilha-de-margarita-venezuela-parte-2/</loc>
+    <loc>https://fguedes.me/2014/01/18/relato-de-viagem-ilha-de-margarita-venezuela-parte-2/</loc>
     <lastmod>2014-01-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2014/01/13/relato-de-viagem-ilha-de-margarita-venezuela-parte-1/</loc>
+    <loc>https://fguedes.me/2014/01/13/relato-de-viagem-ilha-de-margarita-venezuela-parte-1/</loc>
     <lastmod>2014-01-13T14:01:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</loc>
+    <loc>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</loc>
     <lastmod>2013-10-15T16:11:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</loc>
+    <loc>https://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</loc>
     <lastmod>2013-09-27T09:57:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</loc>
+    <loc>https://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</loc>
     <lastmod>2013-09-23T18:31:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fguedes.me/tags/agile/</loc>
+    <loc>https://fguedes.me/tags/agile/</loc>
     <lastmod>2013-10-15T16:11:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fguedes.me/tags/alien-arena/</loc>
+    <loc>https://fguedes.me/tags/alien-arena/</loc>
     <lastmod>2013-09-27T09:57:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fguedes.me/tags/android/</loc>
-    <lastmod>2015-04-08T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/angularjs/</loc>
-    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/avi%C3%A3o/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/blueticket/</loc>
-    <lastmod>2015-11-10T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/boa-vista/</loc>
-    <lastmod>2014-01-13T14:01:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/codifica%C3%A7%C3%A3o/</loc>
-    <lastmod>2013-09-23T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/deploy-cont%C3%ADnuo/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/desenvolvimento/</loc>
-    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/dica/</loc>
-    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/docker/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/empreendedorismo/</loc>
-    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/english/</loc>
-    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/experi%C3%AAncias/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/filmes/</loc>
-    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/florianopolis/</loc>
-    <lastmod>2015-11-10T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/fort%C3%ADn-de-la-galera/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/game/</loc>
-    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/gastronomia/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/integra%C3%A7%C3%A3o-cont%C3%ADnua/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/iso-8859-1/</loc>
-    <lastmod>2013-09-23T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/javascript/</loc>
-    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/jogo/</loc>
-    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/kubernetes/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/linux/</loc>
-    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/manaus/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/margarita/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/offtopic/</loc>
-    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/open-source/</loc>
-    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/patterns/</loc>
-    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/playa-caribe/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/playa-el-agua/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/playa-la-galera/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/playa-parguito/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/playa-punta-arena/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/playa-zaragoza/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/podcast/</loc>
-    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/post/</loc>
-    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/promises/</loc>
-    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/puerto-ordaz/</loc>
-    <lastmod>2014-01-13T14:01:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/q/</loc>
-    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/relato-de-viagem/</loc>
-    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/santa-catarina/</loc>
-    <lastmod>2015-11-10T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/santa-elena/</loc>
-    <lastmod>2014-01-13T14:01:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/software-livre/</loc>
+    <loc>https://fguedes.me/tags/android/</loc>
     <lastmod>2015-04-08T18:31:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fguedes.me/tags/spinnaker/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/ssh/</loc>
-    <lastmod>2015-04-08T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/</loc>
-    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/tip/</loc>
+    <loc>https://fguedes.me/tags/angularjs/</loc>
     <lastmod>2016-01-15T18:31:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fguedes.me/tags/tutorial/</loc>
-    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/utf-8/</loc>
-    <lastmod>2013-09-23T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/viagem/</loc>
+    <loc>https://fguedes.me/tags/avi%C3%A3o/</loc>
     <lastmod>2014-01-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fguedes.me/tags/video/</loc>
-    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/vim/</loc>
-    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fguedes.me/tags/work/</loc>
+    <loc>https://fguedes.me/tags/blueticket/</loc>
     <lastmod>2015-11-10T18:31:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fguedes.me/</loc>
+    <loc>https://fguedes.me/tags/boa-vista/</loc>
+    <lastmod>2014-01-13T14:01:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/codifica%C3%A7%C3%A3o/</loc>
+    <lastmod>2013-09-23T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/deploy-cont%C3%ADnuo/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/desenvolvimento/</loc>
+    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/dica/</loc>
+    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/docker/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/empreendedorismo/</loc>
+    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/english/</loc>
+    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/experi%C3%AAncias/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/filmes/</loc>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/florianopolis/</loc>
+    <lastmod>2015-11-10T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/fort%C3%ADn-de-la-galera/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/game/</loc>
+    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/gastronomia/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/integra%C3%A7%C3%A3o-cont%C3%ADnua/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/iso-8859-1/</loc>
+    <lastmod>2013-09-23T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/javascript/</loc>
+    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/jogo/</loc>
+    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/kubernetes/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/linux/</loc>
+    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/manaus/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/margarita/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/offtopic/</loc>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/open-source/</loc>
+    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/patterns/</loc>
+    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/playa-caribe/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/playa-el-agua/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/playa-la-galera/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/playa-parguito/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/playa-punta-arena/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/playa-zaragoza/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/podcast/</loc>
+    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/post/</loc>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/promises/</loc>
+    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/puerto-ordaz/</loc>
+    <lastmod>2014-01-13T14:01:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/q/</loc>
+    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/relato-de-viagem/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/santa-catarina/</loc>
+    <lastmod>2015-11-10T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/santa-elena/</loc>
+    <lastmod>2014-01-13T14:01:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/software-livre/</loc>
+    <lastmod>2015-04-08T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/spinnaker/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/ssh/</loc>
+    <lastmod>2015-04-08T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/</loc>
+    <lastmod>2013-10-15T16:11:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/tip/</loc>
+    <lastmod>2016-01-15T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/tutorial/</loc>
+    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/utf-8/</loc>
+    <lastmod>2013-09-23T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/viagem/</loc>
+    <lastmod>2014-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/video/</loc>
+    <lastmod>2013-09-27T09:57:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/vim/</loc>
+    <lastmod>2015-05-29T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/work/</loc>
+    <lastmod>2015-11-10T18:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/</loc>
     <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

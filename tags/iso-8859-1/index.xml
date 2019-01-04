@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iso 8859 1 on ~fguedes 🕱</title>
-    <link>http://fguedes.me/tags/iso-8859-1/</link>
+    <link>https://fguedes.me/tags/iso-8859-1/</link>
     <description>Recent content in Iso 8859 1 on ~fguedes 🕱</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
     <lastBuildDate>Mon, 23 Sep 2013 18:31:09 +0000</lastBuildDate>
     
-	<atom:link href="http://fguedes.me/tags/iso-8859-1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fguedes.me/tags/iso-8859-1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Codificação de arquivos no Linux</title>
-      <link>http://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</link>
+      <link>https://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</link>
       <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</guid>
+      <guid>https://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</guid>
       <description>Vou iniciar o blog, colocando a resolução de um problema que eu estava enfrentando com projetos com vários programadores utilizando o git como versionamento. Acontece que algumas IDEs estavam codificações diferentes, e quando o arquivo era aberto por outro programador acabava corrompendo tudo. Atrás de uma solução rápida, descobri que a codificação e até mesmo a alteração da codificação de um arquivo pode ser feita via terminal.
 Mão na Massa Bom, para saber a codificação de um arquivo basta digitar no terminal:</description>
     </item>

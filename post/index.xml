@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ~fguedes 🕱</title>
-    <link>http://fguedes.me/post/</link>
+    <link>https://fguedes.me/post/</link>
     <description>Recent content in Posts on ~fguedes 🕱</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
     <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fguedes.me/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fguedes.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>11 Melhores cenas de filmes segundo eu mesmo</title>
-      <link>http://fguedes.me/2018/01/10/11-cenas-de-filmes/</link>
+      <link>https://fguedes.me/2018/01/10/11-cenas-de-filmes/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://fguedes.me/2018/01/10/11-cenas-de-filmes/</guid>
+      <guid>https://fguedes.me/2018/01/10/11-cenas-de-filmes/</guid>
       <description>Já faz um tempo que gostaria de escrever algo fora do tema da área de tecnologia, já que fazem alguns bons 7 anos que escrevo em meus blogs pessoais e poucas vezes escrevi algo fora do tema em que estava trabalhando profissionalmente ou aprendendo.
 Abaixo, das que eu lembrei, cenas que considero as 10 melhores entre os filmes que já vi, não necessariamente na ordem.
 Laranja Mecânica Nessa cena bizarra, ao invadir a casa, se depara com uma escultura em formato de pênis - que balança.</description>
@@ -25,40 +25,40 @@ Laranja Mecânica Nessa cena bizarra, ao invadir a casa, se depara com uma escul
     
     <item>
       <title>Um pouco sobre o Spinnaker - Abstraindo as complexidades da entrega contínua</title>
-      <link>http://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</link>
+      <link>https://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</guid>
+      <guid>https://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</guid>
       <description>Olá, vão fazer três meses que entrei na Portal Telemedicina, e uma das minhas missões iniciais era tornar ágil o processo de entrega de software, basicamente fazer funcionar o fluxo de ponta a ponta - do desenvolvimento ao deploy - com o processo todo automatizado, sem a necessidade de trabalhos manuais para a entrega em diferentes ambientes.
 Em janeiro desse ano (2017) a Portal participou de uma seleção mundial do programa Launchpad Accelerator e teve a oportunidade de contar com o expertise da Google, fez treinamentos, foi acelerada financeiramente e através de créditos em produtos e seviços, em meio a essa troca de experiências e conhecimento, o nosso CEO Rafael Figueroa, conheceu o Spinnaker, compartilhou comigo e disse que poderia ser nosso forte aliado na automação de todo esse processo.</description>
     </item>
     
     <item>
       <title>Dica: Vários promises simplificados com o $q no AngularJS</title>
-      <link>http://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</link>
+      <link>https://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</link>
       <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</guid>
+      <guid>https://fguedes.me/2016/01/15/varios-promises-de-forma-simplificada-no-angularjs/</guid>
       <description>O propósito dessa dica é abordar de forma superficial sobre como disparar diversas chamadas async e aguarda-lás, retornando todas conjuntamente utilizando o $q. Esse tipo de abordagem é útil quando temos uma dezena de microserviços e precisamos fazer alguma ação com o retorno deles de forma conjunta.
 O AngularJS por padrão utiliza em suas Promises uma lib que se chama $q, como se trata de um padrão é bem fácil usar a mesma técnica com qualquer outra lib ou até mesmo com a API nativa.</description>
     </item>
     
     <item>
       <title>3 Meses de Blueticket e Floripa</title>
-      <link>http://fguedes.me/2015/11/10/tres-meses-de-blueticket-e-floripa/</link>
+      <link>https://fguedes.me/2015/11/10/tres-meses-de-blueticket-e-floripa/</link>
       <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2015/11/10/tres-meses-de-blueticket-e-floripa/</guid>
+      <guid>https://fguedes.me/2015/11/10/tres-meses-de-blueticket-e-floripa/</guid>
       <description>Recentemente completei 3 meses morando em Florianópolis e trabalhando na Blueticket, gostaria de compartilhar com vocês um pouco das minhas experiências vividas no decorrer desse tempo.
 Tudo começou em algumas conversas com a minha namorada sobre a possibilidade de irmos morar no Sul (pra quem não sabe, eu residia em Manaus). Fazendo uma &amp;ldquo;prospecção&amp;rdquo; bem superficial de mercado, comecei a acompanhar vagas na área de TI, até que em menos de 2 semanas encontrei uma que era perto daquilo que eu estava procurando e que também tinha uma similaridade com o meu perfil.</description>
     </item>
     
     <item>
       <title>Short Tip: Vim - Redefine tabs to spaces</title>
-      <link>http://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/</link>
+      <link>https://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/</link>
       <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/</guid>
+      <guid>https://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/</guid>
       <description>For redefine tabs to space (whatever many spaces, the development default is four) is very simple.
 Open the ~/.vimrc:
 vim ~/.vimrc So, paste the configuration into the file:
@@ -67,10 +67,10 @@ set tabstop=4 &amp;#34; The width of a TAB is set to 4. &amp;#34; Still it is a 
     
     <item>
       <title>Acessando SSH via Android</title>
-      <link>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</link>
+      <link>https://fguedes.me/2015/04/08/acessando-ssh-via-android/</link>
       <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2015/04/08/acessando-ssh-via-android/</guid>
+      <guid>https://fguedes.me/2015/04/08/acessando-ssh-via-android/</guid>
       <description>Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?
 E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um dashboard que pudesse ser acessado via browser?
 Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.</description>
@@ -78,19 +78,19 @@ Então, comecei a pesquisar meios através do Android de fazer isso, e vou compa
     
     <item>
       <title>Relato de Viagem: Manaus - Margarita 2013/2014 - Parte 2</title>
-      <link>http://fguedes.me/2014/01/18/relato-de-viagem-ilha-de-margarita-venezuela-parte-2/</link>
+      <link>https://fguedes.me/2014/01/18/relato-de-viagem-ilha-de-margarita-venezuela-parte-2/</link>
       <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://fguedes.me/2014/01/18/relato-de-viagem-ilha-de-margarita-venezuela-parte-2/</guid>
+      <guid>https://fguedes.me/2014/01/18/relato-de-viagem-ilha-de-margarita-venezuela-parte-2/</guid>
       <description>Antes de começar a ler a parte 2 do meu relato de viagem, recomendo que leia a parte 1 com minhas primeiras experiências e impressões sobre a Venezuela. Neste post falarei sobre as praias que visitei e comentarei uma a uma em ordem cronológica de visitação. Lembre-se, essa série de posts tem como objetivo disseminar minhas experiências para que possam a vir a ajudar outras pessoas que desejam visitar esta maravilhosa ilha que se chama Margarita, caso tenha alguma dúvida, sugestão ou correção, sinta-se a vontade em comentar ou entrar em contato.</description>
     </item>
     
     <item>
       <title>Relato de Viagem: Manaus - Margarita 2013/2014 - Parte 1</title>
-      <link>http://fguedes.me/2014/01/13/relato-de-viagem-ilha-de-margarita-venezuela-parte-1/</link>
+      <link>https://fguedes.me/2014/01/13/relato-de-viagem-ilha-de-margarita-venezuela-parte-1/</link>
       <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
       
-      <guid>http://fguedes.me/2014/01/13/relato-de-viagem-ilha-de-margarita-venezuela-parte-1/</guid>
+      <guid>https://fguedes.me/2014/01/13/relato-de-viagem-ilha-de-margarita-venezuela-parte-1/</guid>
       <description>Este relato de viagem tem como objetivo disseminar minhas experiências positivas e negativas de todos os dias que estive na Ilha de Margarita, vou separar o relato por tópicos para que a leitura fique mais dinâmica, além disso vou dividi-lo em 3 partes.
 Obs: Todos os valores que constarão aqui em real (R$) ou bolívares (Bs. F) são para duas pessoas.
 Ida Depois de muita pesquisa e planejamento, de acordo com nossos compromissos (trabalho e estudo) decidimos que faríamos o trajeto Manaus - Boa Vista - Santa Elena de Uairen - Margarita.</description>
@@ -98,10 +98,10 @@ Ida Depois de muita pesquisa e planejamento, de acordo com nossos compromissos (
     
     <item>
       <title>Podcasts que todo programador deve (ria) conhecer</title>
-      <link>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</link>
+      <link>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</link>
       <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
+      <guid>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
       <description>&lt;p&gt;Todos nós sabemos que devido à nossa rotina diária, acabamos ficando muito tempo parados, seja em um engarrafamento, em uma fila &lt;del&gt;gigantesca&lt;/del&gt; de banco, ou (como no meu caso), esperando ônibus.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34;&gt;&lt;img src=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34; alt=&#34;Podcasts para programadores&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -113,10 +113,10 @@ Ida Depois de muita pesquisa e planejamento, de acordo com nossos compromissos (
     
     <item>
       <title>Conheça o Alien Arena, um jogo FPS para Linux</title>
-      <link>http://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</link>
+      <link>https://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</link>
       <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</guid>
+      <guid>https://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</guid>
       <description>Recentemente andei pesquisando algum jogo para dar uma relaxada nas horas vagas e encontrei o Alien Arena, na minha opinião - apesar de não ser um expert em jogos - achei os gráficos de altíssima qualidade, com uma boa jogabilidade (rápida e suave), e ainda, existem mais de 60 mapas (!).
 
 Sobre o jogo Como dito no título, o jogo é em FPS e os personagens são em sua maioria seres extra-terrestres com itens futurísticos, tornando-o ainda mais original.</description>
@@ -124,10 +124,10 @@ Sobre o jogo Como dito no título, o jogo é em FPS e os personagens são em s
     
     <item>
       <title>Codificação de arquivos no Linux</title>
-      <link>http://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</link>
+      <link>https://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</link>
       <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</guid>
+      <guid>https://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</guid>
       <description>Vou iniciar o blog, colocando a resolução de um problema que eu estava enfrentando com projetos com vários programadores utilizando o git como versionamento. Acontece que algumas IDEs estavam codificações diferentes, e quando o arquivo era aberto por outro programador acabava corrompendo tudo. Atrás de uma solução rápida, descobri que a codificação e até mesmo a alteração da codificação de um arquivo pode ser feita via terminal.
 Mão na Massa Bom, para saber a codificação de um arquivo basta digitar no terminal:</description>
     </item>

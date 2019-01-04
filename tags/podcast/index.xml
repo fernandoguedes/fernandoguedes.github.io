@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on ~fguedes 🕱</title>
-    <link>http://fguedes.me/tags/podcast/</link>
+    <link>https://fguedes.me/tags/podcast/</link>
     <description>Recent content in Podcast on ~fguedes 🕱</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
     <lastBuildDate>Tue, 15 Oct 2013 16:11:42 +0000</lastBuildDate>
     
-	<atom:link href="http://fguedes.me/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fguedes.me/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Podcasts que todo programador deve (ria) conhecer</title>
-      <link>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</link>
+      <link>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</link>
       <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
       
-      <guid>http://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
+      <guid>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
       <description>&lt;p&gt;Todos nós sabemos que devido à nossa rotina diária, acabamos ficando muito tempo parados, seja em um engarrafamento, em uma fila &lt;del&gt;gigantesca&lt;/del&gt; de banco, ou (como no meu caso), esperando ônibus.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34;&gt;&lt;img src=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34; alt=&#34;Podcasts para programadores&#34; /&gt;&lt;/a&gt;&lt;/p&gt;

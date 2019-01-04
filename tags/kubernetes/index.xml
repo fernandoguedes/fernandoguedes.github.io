@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes on ~fguedes 🕱</title>
-    <link>http://fguedes.me/tags/kubernetes/</link>
+    <link>https://fguedes.me/tags/kubernetes/</link>
     <description>Recent content in Kubernetes on ~fguedes 🕱</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
     <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fguedes.me/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fguedes.me/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Um pouco sobre o Spinnaker - Abstraindo as complexidades da entrega contínua</title>
-      <link>http://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</link>
+      <link>https://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</guid>
+      <guid>https://fguedes.me/2017/12/01/um-pouco-sobre-spinnaker/</guid>
       <description>Olá, vão fazer três meses que entrei na Portal Telemedicina, e uma das minhas missões iniciais era tornar ágil o processo de entrega de software, basicamente fazer funcionar o fluxo de ponta a ponta - do desenvolvimento ao deploy - com o processo todo automatizado, sem a necessidade de trabalhos manuais para a entrega em diferentes ambientes.
 Em janeiro desse ano (2017) a Portal participou de uma seleção mundial do programa Launchpad Accelerator e teve a oportunidade de contar com o expertise da Google, fez treinamentos, foi acelerada financeiramente e através de créditos em produtos e seviços, em meio a essa troca de experiências e conhecimento, o nosso CEO Rafael Figueroa, conheceu o Spinnaker, compartilhou comigo e disse que poderia ser nosso forte aliado na automação de todo esse processo.</description>
     </item>
