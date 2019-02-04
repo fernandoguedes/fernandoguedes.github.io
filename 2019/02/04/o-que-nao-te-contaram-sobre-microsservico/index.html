@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>O que não te contaram sobre microsserviços &middot; Luís Fernando Guedes</title>
+        <meta name="description" content="Antes de continuar saiba: é apenas mais outro post sobre microsserviço e é mais um lembrete do que um aviso. E ah, talvez vocẽ encontre coisas óbvias.
+ Sempre que leio algo ou assisto palestras acerca do assunto, poucas vezes pontuam os problemas que você ganha - sim, pois não tinha - ao utilizar microsserviços.
+Inspiração Uma coisa que sempre me incomodou foi a a &ldquo;glamourização&rdquo; que se cria não só em torno do assunto como também do tal chamado &ldquo;hype&rdquo; nos setores e comunidades de tecnologia.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.55.0-DEV" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="O que não te contaram sobre microsserviços">
+<meta property="og:description" content="Antes de continuar saiba: é apenas mais outro post sobre microsserviço e é mais um lembrete do que um aviso. E ah, talvez vocẽ encontre coisas óbvias.
+ Sempre que leio algo ou assisto palestras acerca do assunto, poucas vezes pontuam os problemas que você ganha - sim, pois não tinha - ao utilizar microsserviços.
+Inspiração Uma coisa que sempre me incomodou foi a a &ldquo;glamourização&rdquo; que se cria não só em torno do assunto como também do tal chamado &ldquo;hype&rdquo; nos setores e comunidades de tecnologia.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fguedes.me/2019/02/04/o-que-nao-te-contaram-sobre-microsservico/">
+        <link rel="stylesheet" href="https://fguedes.me/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-133737351-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="~fguedes 🕱" href="https://fguedes.me/">~fguedes 🕱</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://fguedes.me/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" title="Gitlab" href="https://gitlab.com/fguedes">
+                                <i class="fa fa-gitlab"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/fernandoguedes">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" title="Stack Overflow" href="https://pt.stackoverflow.com/users/11940/lu%c3%ads-fernando-guedes">
+                                <i class="fa fa-stack-overflow"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" title="LinkedIn" href="https://linkedin.com/in/lfernandoguedes/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" title="Email" href="mailto:lfernandoguedes@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">O que não te contaram sobre microsserviços</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2019-02-04" itemprop="datePublished">Feb 4, 2019</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://plus.google.com/u/0/&#43;Lu%c3%adsFernandoGuedes" itemprop="url" rel="author">Luís Fernando Guedes</a>
+            </span>
+        </span>
+        
+        <br />
+        <br />
+        <span>Estimated reading time: 5 min</span>
+        
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    
+
+<blockquote>
+<p>Antes de continuar saiba: é apenas mais outro post sobre microsserviço e é mais
+um lembrete do que um aviso. E ah, talvez vocẽ encontre coisas óbvias.</p>
+</blockquote>
+
+<p>Sempre que leio algo ou assisto palestras acerca do assunto, poucas vezes pontuam os problemas que você ganha - sim, pois não tinha - ao utilizar microsserviços.</p>
+
+<h2 id="inspiração">Inspiração</h2>
+
+<p>Uma coisa que sempre me incomodou foi a a <em>&ldquo;glamourização&rdquo;</em> que se cria não só em torno do assunto como também do tal chamado &ldquo;hype&rdquo; nos setores e comunidades de tecnologia.</p>
+
+<p>Por participar ativamente da comunidade JavaScript sei que esses &ldquo;problemas&rdquo;
+são constantes nesse meio. Recorrência sobre: &ldquo;o framework que eu uso é
+melhor que o seu&rdquo;, ou, a um tempo atrás quando me indagaram &ldquo;nossa, você ainda não usa isso?&rdquo;, se referindo ao fato de eu não
+usar <a href="https://yarnpkg.com/en/">yarn</a>, na época uma ferramenta recém lançada. Aliás, considerando o fato do <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">bash</a> ser de 1989,
+sim, o yarn ainda é algo recente, mas isso é assunto pra outro post.</p>
+
+<h2 id="desmitificando-microsserviços">Desmitificando Microsserviços</h2>
+
+<p>Microsserviços te ajudam a economizar com infraestrutura? Sim. Microsserviços
+tornam o processo de desenvolvimento e distribuição mais complexo? Sim.
+Microsserviços melhoram a manutenabilidade das suas aplicações? Sim. Microsserviços
+dificultam achar com maior rapidez o ponto certo de um erro na sua <em>stack</em>? Sim.</p>
+
+<p>São muitas as perguntas. As respostas podem ser negativas ou
+positivas e que para serem respondidas dependem do contexto passado, presente e futuro que você, sua equipe e
+sua empresa definem. A análise, o diálogo e a troca de experiências com outras
+empresas e pessoas é essencial para <del>tentar</del> obter sucesso.</p>
+
+<blockquote>
+<p>Sei que parece óbvio, mas: não vá para microsserviços só por ir, por <strong>&ldquo;hype&rdquo;</strong>. Definitivamente, não faça isso!</p>
+</blockquote>
+
+<p>Porém, como dizia um palestrante falando sobre microsserviços uma vez: &ldquo;apesar dos <em>cases</em> de sucessos da Netflix e AWS, lembre-se: você não é Netflix e nem AWS!&ldquo;.
+Isso é algo que concordo em parte, você não pode simplesmente comparar de forma
+crua. Provavelmente o seu serviço não tem <a href="https://www1.folha.uol.com.br/mercado/2018/04/netflix-atinge-1189-milhoes-de-assinantes.shtml">118,9 milhões de assinantes</a> e nem é responsável por <a href="http://fortune.com/2018/10/02/netflix-consumes-15-percent-of-global-internet-bandwidth/">15% do tráfego mundial da internet</a>, mas pode ter 1 milhão de acessos únicos mensais ou ter que operar com uma massa de dados muito grande, o que torna a ideia de evoluir a arquitetura mais palpável. Talvez ir para microsserviços seja a melhor saída mas saiba das dificuldades antes de escolher e aplicar essa arquitetura.</p>
+
+<p>Quando você e sua equipe resolverem seguir por esse caminho não será fácil, na
+verdade será bem difícil, e apesar de <del>talvez</del> vocês se livrarem de alguns
+problemas, ganharão outros, por isso reforço: pense, troque experiências, desenhe, arquitete antes de
+tomar qualquer decisão.</p>
+
+<h2 id="com-ou-sem-dor">Com ou sem &ldquo;dor&rdquo;?</h2>
+
+<p>Tive uma experiência em que um monolítico gerava muito esforço voltado pra manutenção - muitas vezes &ldquo;entregando software&rdquo;, porém, sem valor ao cliente. Era bem difícil fazer as
+coisas nele, não seguia padrões, não haviam testes, utilizava uma tecnologia que
+nos impossibilitava de <em>conteinerizar</em>, enfim: um <strong>caos</strong>. Depois de longas reuniões onde mensuramos os custos resolvemos então migrá-lo para uma arquitetura mais enxuta e que fosse
+possível alocá-lo junto com os nossos outros serviços em uma estrutura com recursos compartilhados utilizando <em><a href="https://kubernetes.io/">Kubernetes</a></em>.</p>
+
+<p>A &ldquo;dor&rdquo; veio e tivemos que tomar uma decisão naquele momento. Em seguida, devido
+ao sucesso, com mais experiência e segurança no que estávamos fazendo, começamos
+a distribuir responsabilidades desse serviço em outros utilizando <a href="https://www.nginx.com/">nginx</a> para fazer o roteamento progressivo.</p>
+
+<p>Fomos fazendo a distribuição aos poucos, movendo rota a rota, funcionalidade a
+funcionalidade, porque também teríamos que paralelizar migração e entrega
+de novas <em>features</em>.</p>
+
+<h2 id="pontos-de-atenção">Pontos de Atenção</h2>
+
+<ul>
+<li><p>É muito legal você poder utilizar recursos em diferentes linguagens para resolver problemas específicos, porém, antes de adotar essa arquitetura que envolva multilinguagens, tenha certeza que sua equipe está preparada e nivelada para dar manutenção e criar serviços nessas linguagens. Isso pode evitar que haja sobrecarga sobre algum membro.</p></li>
+
+<li><p>Outro problema recorrente é a complexidade para <em>debuggar</em> processos que envolvam
+mais de uma aplicação.</p></li>
+
+<li><p>Rodar o ambiente local com muitos microsserviços? Microfrontends?! Outro empecilho.</p></li>
+
+<li><p>Crie padrões de desenvolvimento para cada linguagem que você vai utlizar,
+automatize esse processo de verificação utilizando <em>pipelines</em>.</p></li>
+
+<li><p>Aliás, falando em automatização, já pensou ter que fazer deploy de tudo isso
+depois de cada <em>Pull Request</em>? Sem condições. Automatize <del>se possível</del> todo o seu
+processo de integração e deploy.</p></li>
+
+<li><p>Priorize testes de integração, eles envidenciarão gargalos e inconsistências entre
+microsserviços. Se utiliza microfrontends e/ou biblioteca própria de
+componentes, <strong>faça</strong> testes end-to-end.</p></li>
+
+<li><p>Defina entre a equipe coisas básicas, como por exemplo, como funcionará nomenclatura de rotas. Use referências.</p></li>
+
+<li><p>Se utiliza <em>Docker</em> como ferramenta de container, recomendo o <a href="https://docs.docker.com/compose/">docker-compose</a> para &ldquo;orquestrar&rdquo; a estrutura de serviços localmente.</p></li>
+</ul>
+
+<p>Apesar dos <em>hypes</em>, existem sim as melhores ferramentas. Porém <del>como quase tudo
+nessa vida</del>, vai depender para qual
+finalidade que você quer utilizá-la. Existem as que
+exigem uma curva de aprendizado maior e que entregam um excelente valor,
+outras nem tanto. Existem ferramentas plugáveis com curva de aprendizado quase
+nulas que também entregam excelentes resultados, outras nem tanto. Ou seja, não siga o fluxo. Procure prós e
+contras e principalmente qual se encaixa melhor no que você está construindo.</p>
+
+<p>Ferramentas servem para agilizar, automatizar, melhorar, tornar o seu trabalho
+mais produtivo, não atrasá-lo.</p>
+
+<blockquote>
+<p>Não faça refatoração e nem distribua sua aplicação em microsserviços
+precocemente. Se você acha que fez isso e está tendo mais trabalho para manter
+do que antes, <strong>reavalie a necessidade</strong>.</p>
+</blockquote>
+
+<h2 id="estimativas-microsserviços">Estimativas + Microsserviços</h2>
+
+<p>Quando você tem várias etapas e serviços e é preciso criar estimativas, o
+processo acaba ficando um pouco mais difícil. Pode ser que hajam erros, porém,
+como ciclo base do <em>scrum</em>, faça sempre as <em>reviews</em> evidenciando onde houve o
+erro.</p>
+
+<p>Começamos a experimentar recentemente o mapeamento de aplicações x impacto, em
+um primeiro momento nos ajudou a visualizar o todo.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/hype/">hype</a>, 
+            
+                <a href="/tags/microsservi%C3%A7os/">microsserviços</a>, 
+            
+                <a href="/tags/opini%C3%A3o/">opinião</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=O%20que%20n%c3%a3o%20te%20contaram%20sobre%20microsservi%c3%a7os&url=https%3a%2f%2ffguedes.me%2f2019%2f02%2f04%2fo-que-nao-te-contaram-sobre-microsservico%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffguedes.me%2f2019%2f02%2f04%2fo-que-nao-te-contaram-sobre-microsservico%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2ffguedes.me%2f2019%2f02%2f04%2fo-que-nao-te-contaram-sobre-microsservico%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fguedes" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="~fguedes 🕱" href="https://fguedes.me/">~fguedes 🕱</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2019 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://fguedes.me/js/jquery-1.11.3.min.js"></script>
+        <script src="https://fguedes.me/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://fguedes.me/js/scripts.js"></script>
+    </body>
+</html>
+

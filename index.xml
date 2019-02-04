@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
-    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fguedes.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>O que não te contaram sobre microsserviços</title>
+      <link>https://fguedes.me/2019/02/04/o-que-nao-te-contaram-sobre-microsservico/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/2019/02/04/o-que-nao-te-contaram-sobre-microsservico/</guid>
+      <description>Antes de continuar saiba: é apenas mais outro post sobre microsserviço e é mais um lembrete do que um aviso. E ah, talvez vocẽ encontre coisas óbvias.
+ Sempre que leio algo ou assisto palestras acerca do assunto, poucas vezes pontuam os problemas que você ganha - sim, pois não tinha - ao utilizar microsserviços.
+Inspiração Uma coisa que sempre me incomodou foi a a &amp;ldquo;glamourização&amp;rdquo; que se cria não só em torno do assunto como também do tal chamado &amp;ldquo;hype&amp;rdquo; nos setores e comunidades de tecnologia.</description>
+    </item>
     
     <item>
       <title>11 Melhores cenas de filmes segundo eu mesmo</title>

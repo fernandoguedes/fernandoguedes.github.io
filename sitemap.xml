@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fguedes.me/2019/02/04/o-que-nao-te-contaram-sobre-microsservico/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fguedes.me/2018/01/10/11-cenas-de-filmes/</loc>
     <lastmod>2018-01-10T00:00:00+00:00</lastmod>
   </url>
@@ -178,6 +183,12 @@
   </url>
   
   <url>
+    <loc>https://fguedes.me/tags/hype/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://fguedes.me/tags/integra%C3%A7%C3%A3o-cont%C3%ADnua/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -226,6 +237,12 @@
   </url>
   
   <url>
+    <loc>https://fguedes.me/tags/microsservi%C3%A7os/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://fguedes.me/tags/offtopic/</loc>
     <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -234,6 +251,12 @@
   <url>
     <loc>https://fguedes.me/tags/open-source/</loc>
     <lastmod>2013-09-27T09:57:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/opini%C3%A3o/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -287,7 +310,7 @@
   
   <url>
     <loc>https://fguedes.me/post/</loc>
-    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -395,7 +418,7 @@
   
   <url>
     <loc>https://fguedes.me/</loc>
-    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

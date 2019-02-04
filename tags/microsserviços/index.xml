@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsserviços on ~fguedes 🕱</title>
+    <link>https://fguedes.me/tags/microsservi%C3%A7os/</link>
+    <description>Recent content in Microsserviços on ~fguedes 🕱</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Luís Fernando Guedes</copyright>
+    <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fguedes.me/tags/microsservi%C3%A7os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O que não te contaram sobre microsserviços</title>
+      <link>https://fguedes.me/2019/02/04/o-que-nao-te-contaram-sobre-microsservico/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/2019/02/04/o-que-nao-te-contaram-sobre-microsservico/</guid>
+      <description>Antes de continuar saiba: é apenas mais outro post sobre microsserviço e é mais um lembrete do que um aviso. E ah, talvez vocẽ encontre coisas óbvias.
+ Sempre que leio algo ou assisto palestras acerca do assunto, poucas vezes pontuam os problemas que você ganha - sim, pois não tinha - ao utilizar microsserviços.
+Inspiração Uma coisa que sempre me incomodou foi a a &amp;ldquo;glamourização&amp;rdquo; que se cria não só em torno do assunto como também do tal chamado &amp;ldquo;hype&amp;rdquo; nos setores e comunidades de tecnologia.</description>
+    </item>
+    
+  </channel>
+</rss>
