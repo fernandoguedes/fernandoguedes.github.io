@@ -7,80 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Luís Fernando Guedes</copyright>
-    <lastBuildDate>Tue, 15 Oct 2013 16:11:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fguedes.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Agile</title>
-      <link>https://fguedes.me/tags/agile/</link>
-      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
+      <title>cordel</title>
+      <link>https://fguedes.me/tags/cordel/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/agile/</guid>
+      <guid>https://fguedes.me/tags/cordel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Alien Arena</title>
-      <link>https://fguedes.me/tags/alien-arena/</link>
-      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      <title>nordeste</title>
+      <link>https://fguedes.me/tags/nordeste/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/alien-arena/</guid>
+      <guid>https://fguedes.me/tags/nordeste/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://fguedes.me/tags/android/</link>
-      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
+      <title>viagem</title>
+      <link>https://fguedes.me/tags/viagem/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/android/</guid>
+      <guid>https://fguedes.me/tags/viagem/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Angularjs</title>
-      <link>https://fguedes.me/tags/angularjs/</link>
-      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
+      <title>hype</title>
+      <link>https://fguedes.me/tags/hype/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/angularjs/</guid>
+      <guid>https://fguedes.me/tags/hype/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Avião</title>
-      <link>https://fguedes.me/tags/avi%C3%A3o/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      <title>microsserviços</title>
+      <link>https://fguedes.me/tags/microsservi%C3%A7os/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/avi%C3%A3o/</guid>
+      <guid>https://fguedes.me/tags/microsservi%C3%A7os/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blueticket</title>
-      <link>https://fguedes.me/tags/blueticket/</link>
-      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
+      <title>opinião</title>
+      <link>https://fguedes.me/tags/opini%C3%A3o/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/blueticket/</guid>
+      <guid>https://fguedes.me/tags/opini%C3%A3o/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Boa Vista</title>
-      <link>https://fguedes.me/tags/boa-vista/</link>
-      <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
+      <title>filmes</title>
+      <link>https://fguedes.me/tags/filmes/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/boa-vista/</guid>
+      <guid>https://fguedes.me/tags/filmes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Codificação</title>
-      <link>https://fguedes.me/tags/codifica%C3%A7%C3%A3o/</link>
-      <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
+      <title>offtopic</title>
+      <link>https://fguedes.me/tags/offtopic/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/codifica%C3%A7%C3%A3o/</guid>
+      <guid>https://fguedes.me/tags/offtopic/</guid>
       <description></description>
     </item>
     
@@ -94,114 +94,6 @@
     </item>
     
     <item>
-      <title>Desenvolvimento</title>
-      <link>https://fguedes.me/tags/desenvolvimento/</link>
-      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/desenvolvimento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dica</title>
-      <link>https://fguedes.me/tags/dica/</link>
-      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/dica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://fguedes.me/tags/docker/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Empreendedorismo</title>
-      <link>https://fguedes.me/tags/empreendedorismo/</link>
-      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/empreendedorismo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://fguedes.me/tags/english/</link>
-      <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Experiências</title>
-      <link>https://fguedes.me/tags/experi%C3%AAncias/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/experi%C3%AAncias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Filmes</title>
-      <link>https://fguedes.me/tags/filmes/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/filmes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Florianopolis</title>
-      <link>https://fguedes.me/tags/florianopolis/</link>
-      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/florianopolis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fortín De La Galera</title>
-      <link>https://fguedes.me/tags/fort%C3%ADn-de-la-galera/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/fort%C3%ADn-de-la-galera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game</title>
-      <link>https://fguedes.me/tags/game/</link>
-      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gastronomia</title>
-      <link>https://fguedes.me/tags/gastronomia/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/gastronomia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hype</title>
-      <link>https://fguedes.me/tags/hype/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/hype/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Integração Contínua</title>
       <link>https://fguedes.me/tags/integra%C3%A7%C3%A3o-cont%C3%ADnua/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
@@ -211,34 +103,16 @@
     </item>
     
     <item>
-      <title>Iso 8859 1</title>
-      <link>https://fguedes.me/tags/iso-8859-1/</link>
-      <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
+      <title>docker</title>
+      <link>https://fguedes.me/tags/docker/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/iso-8859-1/</guid>
+      <guid>https://fguedes.me/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Javascript</title>
-      <link>https://fguedes.me/tags/javascript/</link>
-      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jogo</title>
-      <link>https://fguedes.me/tags/jogo/</link>
-      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/jogo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes</title>
+      <title>kubernetes</title>
       <link>https://fguedes.me/tags/kubernetes/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
@@ -247,205 +121,7 @@
     </item>
     
     <item>
-      <title>Linux</title>
-      <link>https://fguedes.me/tags/linux/</link>
-      <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Manaus</title>
-      <link>https://fguedes.me/tags/manaus/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/manaus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Margarita</title>
-      <link>https://fguedes.me/tags/margarita/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/margarita/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsserviços</title>
-      <link>https://fguedes.me/tags/microsservi%C3%A7os/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/microsservi%C3%A7os/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Offtopic</title>
-      <link>https://fguedes.me/tags/offtopic/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/offtopic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://fguedes.me/tags/open-source/</link>
-      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opinião</title>
-      <link>https://fguedes.me/tags/opini%C3%A3o/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/opini%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Patterns</title>
-      <link>https://fguedes.me/tags/patterns/</link>
-      <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/patterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playa Caribe</title>
-      <link>https://fguedes.me/tags/playa-caribe/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/playa-caribe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playa El Agua</title>
-      <link>https://fguedes.me/tags/playa-el-agua/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/playa-el-agua/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playa La Galera</title>
-      <link>https://fguedes.me/tags/playa-la-galera/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/playa-la-galera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playa Parguito</title>
-      <link>https://fguedes.me/tags/playa-parguito/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/playa-parguito/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playa Punta Arena</title>
-      <link>https://fguedes.me/tags/playa-punta-arena/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/playa-punta-arena/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playa Zaragoza</title>
-      <link>https://fguedes.me/tags/playa-zaragoza/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/playa-zaragoza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Podcast</title>
-      <link>https://fguedes.me/tags/podcast/</link>
-      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/podcast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Promises</title>
-      <link>https://fguedes.me/tags/promises/</link>
-      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/promises/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Puerto Ordaz</title>
-      <link>https://fguedes.me/tags/puerto-ordaz/</link>
-      <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/puerto-ordaz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Q</title>
-      <link>https://fguedes.me/tags/q/</link>
-      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/q/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Relato De Viagem</title>
-      <link>https://fguedes.me/tags/relato-de-viagem/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/relato-de-viagem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Santa Catarina</title>
-      <link>https://fguedes.me/tags/santa-catarina/</link>
-      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/santa-catarina/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Santa Elena</title>
-      <link>https://fguedes.me/tags/santa-elena/</link>
-      <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/santa-elena/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Livre</title>
-      <link>https://fguedes.me/tags/software-livre/</link>
-      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
-      
-      <guid>https://fguedes.me/tags/software-livre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spinnaker</title>
+      <title>spinnaker</title>
       <link>https://fguedes.me/tags/spinnaker/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
@@ -454,16 +130,52 @@
     </item>
     
     <item>
-      <title>Ssh</title>
-      <link>https://fguedes.me/tags/ssh/</link>
-      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
+      <title>angularjs</title>
+      <link>https://fguedes.me/tags/angularjs/</link>
+      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/ssh/</guid>
+      <guid>https://fguedes.me/tags/angularjs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tip</title>
+      <title>dica</title>
+      <link>https://fguedes.me/tags/dica/</link>
+      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/dica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://fguedes.me/tags/javascript/</link>
+      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>promises</title>
+      <link>https://fguedes.me/tags/promises/</link>
+      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/promises/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>q</title>
+      <link>https://fguedes.me/tags/q/</link>
+      <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/q/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tip</title>
       <link>https://fguedes.me/tags/tip/</link>
       <pubDate>Fri, 15 Jan 2016 18:31:09 +0000</pubDate>
       
@@ -472,43 +184,70 @@
     </item>
     
     <item>
-      <title>Tutorial</title>
-      <link>https://fguedes.me/tags/tutorial/</link>
-      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      <title>blueticket</title>
+      <link>https://fguedes.me/tags/blueticket/</link>
+      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/tutorial/</guid>
+      <guid>https://fguedes.me/tags/blueticket/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Utf 8</title>
-      <link>https://fguedes.me/tags/utf-8/</link>
-      <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
+      <title>florianopolis</title>
+      <link>https://fguedes.me/tags/florianopolis/</link>
+      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/utf-8/</guid>
+      <guid>https://fguedes.me/tags/florianopolis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Viagem</title>
-      <link>https://fguedes.me/tags/viagem/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      <title>santa catarina</title>
+      <link>https://fguedes.me/tags/santa-catarina/</link>
+      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/viagem/</guid>
+      <guid>https://fguedes.me/tags/santa-catarina/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Video</title>
-      <link>https://fguedes.me/tags/video/</link>
-      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      <title>work</title>
+      <link>https://fguedes.me/tags/work/</link>
+      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/video/</guid>
+      <guid>https://fguedes.me/tags/work/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vim</title>
+      <title>english</title>
+      <link>https://fguedes.me/tags/english/</link>
+      <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://fguedes.me/tags/linux/</link>
+      <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patterns</title>
+      <link>https://fguedes.me/tags/patterns/</link>
+      <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
       <link>https://fguedes.me/tags/vim/</link>
       <pubDate>Fri, 29 May 2015 18:31:09 +0000</pubDate>
       
@@ -517,11 +256,290 @@
     </item>
     
     <item>
-      <title>Work</title>
-      <link>https://fguedes.me/tags/work/</link>
-      <pubDate>Tue, 10 Nov 2015 18:31:09 +0000</pubDate>
+      <title>android</title>
+      <link>https://fguedes.me/tags/android/</link>
+      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
       
-      <guid>https://fguedes.me/tags/work/</guid>
+      <guid>https://fguedes.me/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software livre</title>
+      <link>https://fguedes.me/tags/software-livre/</link>
+      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/software-livre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://fguedes.me/tags/ssh/</link>
+      <pubDate>Wed, 08 Apr 2015 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>avião</title>
+      <link>https://fguedes.me/tags/avi%C3%A3o/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/avi%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experiências</title>
+      <link>https://fguedes.me/tags/experi%C3%AAncias/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/experi%C3%AAncias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fortín de la galera</title>
+      <link>https://fguedes.me/tags/fort%C3%ADn-de-la-galera/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/fort%C3%ADn-de-la-galera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gastronomia</title>
+      <link>https://fguedes.me/tags/gastronomia/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/gastronomia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manaus</title>
+      <link>https://fguedes.me/tags/manaus/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/manaus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>margarita</title>
+      <link>https://fguedes.me/tags/margarita/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/margarita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playa caribe</title>
+      <link>https://fguedes.me/tags/playa-caribe/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/playa-caribe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playa el agua</title>
+      <link>https://fguedes.me/tags/playa-el-agua/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/playa-el-agua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playa la galera</title>
+      <link>https://fguedes.me/tags/playa-la-galera/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/playa-la-galera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playa parguito</title>
+      <link>https://fguedes.me/tags/playa-parguito/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/playa-parguito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playa punta arena</title>
+      <link>https://fguedes.me/tags/playa-punta-arena/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/playa-punta-arena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playa zaragoza</title>
+      <link>https://fguedes.me/tags/playa-zaragoza/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/playa-zaragoza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relato de viagem</title>
+      <link>https://fguedes.me/tags/relato-de-viagem/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/relato-de-viagem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boa vista</title>
+      <link>https://fguedes.me/tags/boa-vista/</link>
+      <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/boa-vista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>puerto ordaz</title>
+      <link>https://fguedes.me/tags/puerto-ordaz/</link>
+      <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/puerto-ordaz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>santa elena</title>
+      <link>https://fguedes.me/tags/santa-elena/</link>
+      <pubDate>Mon, 13 Jan 2014 14:01:55 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/santa-elena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agile</title>
+      <link>https://fguedes.me/tags/agile/</link>
+      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>desenvolvimento</title>
+      <link>https://fguedes.me/tags/desenvolvimento/</link>
+      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/desenvolvimento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>empreendedorismo</title>
+      <link>https://fguedes.me/tags/empreendedorismo/</link>
+      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/empreendedorismo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>https://fguedes.me/tags/podcast/</link>
+      <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alien arena</title>
+      <link>https://fguedes.me/tags/alien-arena/</link>
+      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/alien-arena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>https://fguedes.me/tags/game/</link>
+      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jogo</title>
+      <link>https://fguedes.me/tags/jogo/</link>
+      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/jogo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>https://fguedes.me/tags/open-source/</link>
+      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://fguedes.me/tags/tutorial/</link>
+      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>https://fguedes.me/tags/video/</link>
+      <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>codificação</title>
+      <link>https://fguedes.me/tags/codifica%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/codifica%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iso-8859-1</title>
+      <link>https://fguedes.me/tags/iso-8859-1/</link>
+      <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/iso-8859-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utf-8</title>
+      <link>https://fguedes.me/tags/utf-8/</link>
+      <pubDate>Mon, 23 Sep 2013 18:31:09 +0000</pubDate>
+      
+      <guid>https://fguedes.me/tags/utf-8/</guid>
       <description></description>
     </item>
     
