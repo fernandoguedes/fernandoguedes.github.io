@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -375,6 +375,22 @@
   <url>
     <loc>https://fguedes.me/tags/utf-8/</loc>
     <lastmod>2013-09-23T18:31:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/functions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/google-cloud/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/2020/22/01/introducao-google-cloud-functions-e-serverless/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/serverless/</loc>
   </url>
   
 </urlset>

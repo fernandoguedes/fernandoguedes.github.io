@@ -8,7 +8,7 @@
 Em janeiro desse ano (2017) a Portal participou de uma seleção mundial do programa Launchpad Accelerator e teve a oportunidade de contar com o expertise da Google, fez treinamentos, foi acelerada financeiramente e através de créditos em produtos e seviços, em meio a essa troca de experiências e conhecimento, o nosso CEO Rafael Figueroa, conheceu o Spinnaker, compartilhou comigo e disse que poderia ser nosso forte aliado na automação de todo esse processo.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.58.0-DEV" />
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Um pouco sobre o Spinnaker - Abstraindo as complexidades da entrega contínua">
@@ -111,30 +111,18 @@ if (!doNotTrack) {
         <div class="post-content clearfix" itemprop="articleBody">
     
 
-    
-
-<p>Olá, vão fazer três meses que entrei na <a href="http://portaltelemedicina.com.br/">Portal Telemedicina</a>, e uma das minhas missões iniciais era tornar ágil o processo de entrega de software, basicamente fazer funcionar o fluxo de ponta a ponta - do desenvolvimento ao deploy - com o processo todo automatizado, sem a necessidade de trabalhos manuais para a entrega em diferentes ambientes.</p>
-
+    <p>Olá, vão fazer três meses que entrei na <a href="http://portaltelemedicina.com.br/">Portal Telemedicina</a>, e uma das minhas missões iniciais era tornar ágil o processo de entrega de software, basicamente fazer funcionar o fluxo de ponta a ponta - do desenvolvimento ao deploy - com o processo todo automatizado, sem a necessidade de trabalhos manuais para a entrega em diferentes ambientes.</p>
 <p>Em janeiro desse ano (2017) a Portal participou de uma seleção mundial do programa <a href="http://portaltelemedicina.com.br/portal-telemedicina-acelerada-google/">Launchpad Accelerator</a> e teve a oportunidade de contar com o expertise da Google, fez treinamentos, foi acelerada financeiramente e através de créditos em produtos e seviços, em meio a essa troca de experiências e conhecimento, o nosso CEO Rafael Figueroa, conheceu o <a href="https://spinnaker.io">Spinnaker</a>, compartilhou comigo e disse que poderia ser nosso forte aliado na automação de todo esse processo.</p>
-
 <h2 id="história">História</h2>
-
 <p>O Spinnaker foi criado para satisfazer as necessidades internas de deploy e gerenciamento de infraestrutura da Netflix, e desde 2014 vinha sendo utilizado, efetuando mais de 3000 deploys/dia em 1000 microsserviços (!). Com a ferramenta em pleno funcionamento, em parceria com o Google a tornaram open-source em outubro de 2015, e desde então, vem ganhando o mundo.</p>
-
 <h2 id="composição">Composição</h2>
-
 <blockquote>
 <p>Spinnaker is an open source, multi-cloud continuous delivery platform that helps you release software changes with high velocity and confidence.</p>
 </blockquote>
-
 <p>A ferramenta é um conjunto de microsserviços e drivers que se integram a diferentes <em>cloud providers</em> e oferece diferentes estratégias de deploy - do red/black (blue/green) ao canary - abstraindo a complexidade do controle e gerenciamento da infraestrutura necessária para que esse processo seja ágil e funcione da maneira correta.</p>
-
 <h3 id="microsserviços">Microsserviços</h3>
-
 <p>O Spinnaker é composto por 10 microsserviços entre APIs, frontends, integrações e persistência de dados, abaixo cada uma e responsabilidades:</p>
-
-<p><img src="/spinnaker/architeture.png" alt="Arquitetura do Spinnaker" /></p>
-
+<p><img src="/spinnaker/architeture.png" alt="Arquitetura do Spinnaker"></p>
 <ul>
 <li><a href="https://github.com/spinnaker/deck">Deck</a>: Interface web para gerenciamento e acompanhamento de todas as execuções background da ferramenta;</li>
 <li><a href="https://github.com/spinnaker/gate">Gate</a>: Gateway de APIs, responsável pela distribuição de requests aos microsserviços;</li>
@@ -147,27 +135,18 @@ if (!doNotTrack) {
 <li><a href="https://github.com/spinnaker/rosco">Fiat</a>: Faz o controle de acesso em um sistema baseado em RBAC - Role Based Access Control;</li>
 <li><a href="https://github.com/spinnaker/halyard">Halyard</a>: Serviço que faz a configuração e gerenciamento do Spinnaker e seus microsserviços, permite instalar, atualizar e fazer rollbacks.</li>
 </ul>
-
 <p>Uma vantagem dessa arquitetura, é que conseguimos acessar pequenas partes do todo, com isso, facilitando integrações externas a processos que não sigam o convencional, exemplo: executar um pipeline de deploy via comando de um bot do slack.</p>
-
 <h3 id="pipelines">Pipelines</h3>
-
 <p>O pipeline pode ser um processo, um conjunto de processos ou um conjunto de pipelines, para ilustrar melhor visualize a imagem abaixo:</p>
-
-<p><img src="/spinnaker/pipelines.jpeg" alt="Pipelines" /></p>
-
+<p><img src="/spinnaker/pipelines.jpeg" alt="Pipelines"></p>
 <p>Para ativar um pipeline é necessário um trigger que pode ser um webhook ou um registry (<a href="https://docs.docker.com/registry/">the Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images</a>).</p>
-
 <ul>
 <li>Bake &amp; Deploy to Test: Consiste em preparar o que for necessário para enviar seu <em>app</em> para o ambiente de teste;</li>
 <li>Validate Test: Pelo fato do Spinnaker também oferecer triggers que podem ser ativados manualmente, ao enviar algo para o ambiente de QA por exemplo, você pode determinar que apenas os testadores podem validar e manualmente  aprovar (podendo ser também acessado via API) o seu envio para um ambiente de homologação;</li>
 <li>Promote to Prod: Automatizado, sem estresse, faz o deploy utilizando clusters, instâncias, kubernetes e load balancers, de acordo com a estratégia configurada, como disse anteriormente possui diferentes estratégias que são gerenciadas pela própria ferramenta.</li>
 </ul>
-
 <h2 id="portal-telemedicina">Portal Telemedicina</h2>
-
 <p>Tivemos alguns desafios iniciais aqui na Portal, primeiramente precisávamos criar toda a estrutura básica de testes, checagem estática de código e formatação, depois adicionar isso aos pipelines do <a href="https://bitbucket.org">Bitbucket</a> (plataforma que atualmente usamos aqui), &ldquo;dockerizar&rdquo; as aplicações, criar a infraestrutura do Spinnaker e seus microsserviços, e por fim, o principal, integrar e juntar as pontas. Acabamos utilizando webhooks (git) entre Bitbucket e Google Cloud Registry, e um &ldquo;observador&rdquo; de imagens entre Google Cloud Registry e Spinnaker, tudo isso sobre a orquestração do git flow - com algumas adaptações.</p>
-
 <p>Partimos praticamente do zero para entrega contínua em pouco mais de um mês com importância fundamental do Spinnaker, até agora os resultados foram satisfatórios, em momentos intensos de entrega, conseguimos realizar diversos deploys por dia sem downtime, diminuindo o tempo entre a entrega e o ciclo de feedback.</p>
 
 </div>

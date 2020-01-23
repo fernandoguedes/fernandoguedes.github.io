@@ -8,7 +8,7 @@
 O AngularJS por padrão utiliza em suas Promises uma lib que se chama $q, como se trata de um padrão é bem fácil usar a mesma técnica com qualquer outra lib ou até mesmo com a API nativa.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.58.0-DEV" />
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Dica: Vários promises simplificados com o $q no AngularJS">
@@ -112,13 +112,9 @@ if (!doNotTrack) {
     
 
     <p>O propósito dessa dica é abordar de forma superficial sobre como disparar diversas chamadas async e aguarda-lás, retornando todas conjuntamente utilizando o <code>$q</code>. Esse tipo de abordagem é útil quando temos uma dezena de microserviços e precisamos fazer alguma ação com o retorno deles de forma conjunta.</p>
-
 <p>O AngularJS por padrão utiliza em suas <a href="https://www.promisejs.org/">Promises</a> uma <code>lib</code> que se chama <code>$q</code>, como se trata de um padrão é bem fácil usar a mesma técnica com qualquer outra <code>lib</code> ou até mesmo com a API nativa. Nesse caso, utilizaremos o <code>$q.all</code>.</p>
-
 <p>Vamos supôr que você tem um serviço implementado com Promises que consome uma API externa e que o mesmo está &ldquo;injetado&rdquo;, bem como o <code>$q</code> que nesse contexto entra como dependência do próprio controller.</p>
-
 <p>Dentro desse <code>controller</code>, vamos usar o <code>$q.all</code> para gerenciar os diversos requests que serão feitos de forma assíncrona. Aqui são basicamente dois passos, o primeiro é declarar os serviços dentro de um array, e o segundo chamar esse mesmo array através do comando <code>$q.all</code>.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">angular</span>
     .<span style="color:#a6e22e">module</span>(<span style="color:#e6db74">&#39;seuApp&#39;</span>)
     .<span style="color:#a6e22e">controller</span>(<span style="color:#e6db74">&#39;appCtrl&#39;</span>, <span style="color:#a6e22e">appCtrl</span>);
@@ -143,7 +139,6 @@ if (!doNotTrack) {
     });
 };
 </code></pre></div>
-
 <p><em>Atualizado no dia 07/08/2017: Melhorei o texto e enxuguei o código, além da substituição do <code>var</code> por <code>let</code> e a adição de <code>arrow functions</code>.</em></p>
 
 </div>

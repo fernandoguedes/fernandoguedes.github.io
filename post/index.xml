@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ~fguedes 🕱</title>
@@ -84,7 +84,7 @@ Tudo começou em algumas conversas com a minha namorada sobre a possibilidade de
       <description>For redefine tabs to space (whatever many spaces, the development default is four) is very simple.
 Open the ~/.vimrc:
 vim ~/.vimrc So, paste the configuration into the file:
-set tabstop=4 &amp;#34; The width of a TAB is set to 4. &amp;#34; Still it is a \t. It is just that &amp;#34; Vim will interpret it to be having &amp;#34; a width of 4. set shiftwidth=4 &amp;#34; Indents will have a width of 4 set softtabstop=4 &amp;#34; Sets the number of columns for a TAB set expandtab &amp;#34; Expand TABs to spaces Save and restart (:wq!</description>
+set tabstop=4 &amp;#34; The width of a TAB is set to 4. &amp;#34; Still it is a \t. It is just that &amp;#34; Vim will interpret it to be having &amp;#34; a width of 4. set shiftwidth=4 &amp;#34; Indents will have a width of 4 set softtabstop=4 &amp;#34; Sets the number of columns for a TAB set expandtab &amp;#34;Expand TABs to spaces Save and restart (:wq!</description>
     </item>
     
     <item>
@@ -124,12 +124,9 @@ Ida Depois de muita pesquisa e planejamento, de acordo com nossos compromissos (
       <pubDate>Tue, 15 Oct 2013 16:11:42 +0000</pubDate>
       
       <guid>https://fguedes.me/2013/10/15/podcasts-que-todo-programador-deve-ria-conhecer/</guid>
-      <description>&lt;p&gt;Todos nós sabemos que devido à nossa rotina diária, acabamos ficando muito tempo parados, seja em um engarrafamento, em uma fila &lt;del&gt;gigantesca&lt;/del&gt; de banco, ou (como no meu caso), esperando ônibus.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34;&gt;&lt;img src=&#34;{{site.url}}/assets/2013-10-15/podcasts.jpg&#34; alt=&#34;Podcasts para programadores&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;Todos nós sabemos que devido à nossa rotina diária, acabamos ficando muito tempo parados, seja em um engarrafamento, em uma fila &lt;!-- raw HTML omitted --&gt;gigantesca&lt;!-- raw HTML omitted --&gt; de banco, ou (como no meu caso), esperando ônibus.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%7B%7Bsite.url%7D%7D/assets/2013-10-15/podcasts.jpg&#34;&gt;&lt;img src=&#34;%7B%7Bsite.url%7D%7D/assets/2013-10-15/podcasts.jpg&#34; alt=&#34;Podcasts para programadores&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Então, por que não ocupar esse seu tempo ouvindo um bate-papo  sobre Desenvolvimento, Software Livre, Empreendedorismo e Agile?&lt;/p&gt;
-
 &lt;p&gt;Separei e listei alguns podcasts que recomendo para quem é da área de Desenvolvimento, deseja Empreender ou aprofundar-se sobre técnicas de Agile.&lt;/p&gt;</description>
     </item>
     
@@ -139,9 +136,9 @@ Ida Depois de muita pesquisa e planejamento, de acordo com nossos compromissos (
       <pubDate>Fri, 27 Sep 2013 09:57:08 +0000</pubDate>
       
       <guid>https://fguedes.me/2013/09/27/conheca-o-alien-arena-um-jogo-fps-para-linux/</guid>
-      <description>Recentemente andei pesquisando algum jogo para dar uma relaxada nas horas vagas e encontrei o Alien Arena, na minha opinião - apesar de não ser um expert em jogos - achei os gráficos de altíssima qualidade, com uma boa jogabilidade (rápida e suave), e ainda, existem mais de 60 mapas (!).
+      <description>Recentemente andei pesquisando algum jogo para dar uma relaxada nas horas vagas e encontrei o Alien Arena, na minha opinião - apesar de não ser um expertem jogos - achei os gráficos de altíssima qualidade, com uma boa jogabilidade (rápida e suave), e ainda, existem mais de 60 mapas (!).
 
-Sobre o jogo Como dito no título, o jogo é em FPS e os personagens são em sua maioria seres extra-terrestres com itens futurísticos, tornando-o ainda mais original.</description>
+Sobre o jogo Como dito no título, o jogo é em FPSe os personagens são em sua maioria seres extra-terrestres com itens futurísticos, tornando-o ainda mais original.</description>
     </item>
     
     <item>
@@ -152,6 +149,16 @@ Sobre o jogo Como dito no título, o jogo é em FPS e os personagens são em s
       <guid>https://fguedes.me/2013/09/23/codificacao-de-arquivos-no-linux/</guid>
       <description>Vou iniciar o blog, colocando a resolução de um problema que eu estava enfrentando com projetos com vários programadores utilizando o git como versionamento. Acontece que algumas IDEs estavam codificações diferentes, e quando o arquivo era aberto por outro programador acabava corrompendo tudo. Atrás de uma solução rápida, descobri que a codificação e até mesmo a alteração da codificação de um arquivo pode ser feita via terminal.
 Mão na Massa Bom, para saber a codificação de um arquivo basta digitar no terminal:</description>
+    </item>
+    
+    <item>
+      <title>Introdução a Google Cloud Functions e Arquiteturas Serverless</title>
+      <link>https://fguedes.me/2020/22/01/introducao-google-cloud-functions-e-serverless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/2020/22/01/introducao-google-cloud-functions-e-serverless/</guid>
+      <description>Antes, gostaria de contextualizar um pouco sobre essas duas coisas: Serverless e Functions.
+Sobre Serverless e Functions Afinal, o que é Serverless? Fazendo uma tradução livre, seria &amp;ldquo;arquitetura sem servidor&amp;rdquo;. Mas como isso? Segundo esse link da AWS seria você poder ter aplicações e serviços sem necessariamente ter que configurar uma infraestrutura, por exemplo. Ou seja, esse trabalho fica por conta dos Cloud Providers que configuram, gerenciam, monitoram e escalam. Cuidam da saúde da sua aplicação sem que necessariamente você tenha que montar um servidor, instalar um sistema operacional, habilitar regras de segurança, e por aí vai&amp;hellip; Fora os trabalhos e complexidades adicionais que exigem quando você administra servidores.</description>
     </item>
     
   </channel>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google cloud on ~fguedes 🕱</title>
+    <link>https://fguedes.me/tags/google-cloud/</link>
+    <description>Recent content in google cloud on ~fguedes 🕱</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Luís Fernando Guedes</copyright>
+    
+	<atom:link href="https://fguedes.me/tags/google-cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introdução a Google Cloud Functions e Arquiteturas Serverless</title>
+      <link>https://fguedes.me/2020/22/01/introducao-google-cloud-functions-e-serverless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fguedes.me/2020/22/01/introducao-google-cloud-functions-e-serverless/</guid>
+      <description>Antes, gostaria de contextualizar um pouco sobre essas duas coisas: Serverless e Functions.
+Sobre Serverless e Functions Afinal, o que é Serverless? Fazendo uma tradução livre, seria &amp;ldquo;arquitetura sem servidor&amp;rdquo;. Mas como isso? Segundo esse link da AWS seria você poder ter aplicações e serviços sem necessariamente ter que configurar uma infraestrutura, por exemplo. Ou seja, esse trabalho fica por conta dos Cloud Providers que configuram, gerenciam, monitoram e escalam. Cuidam da saúde da sua aplicação sem que necessariamente você tenha que montar um servidor, instalar um sistema operacional, habilitar regras de segurança, e por aí vai&amp;hellip; Fora os trabalhos e complexidades adicionais que exigem quando você administra servidores.</description>
+    </item>
+    
+  </channel>
+</rss>

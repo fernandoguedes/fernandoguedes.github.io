@@ -9,7 +9,7 @@
 Inspiração Uma coisa que sempre me incomodou foi a a &ldquo;glamourização&rdquo; que se cria não só em torno do assunto como também do tal chamado &ldquo;hype&rdquo; nos setores e comunidades de tecnologia.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.58.0-DEV" />
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="O que não te contaram sobre microsserviços">
@@ -113,93 +113,82 @@ if (!doNotTrack) {
         <div class="post-content clearfix" itemprop="articleBody">
     
 
-    
-
-<p><img src="/microservices/trainyard.jpg" alt="Pipelines" /></p>
-
+    <p><img src="/microservices/trainyard.jpg" alt="Pipelines"></p>
 <blockquote>
 <p>Antes de continuar saiba: é apenas mais outro post sobre microsserviço e é mais
 um lembrete do que um aviso. E ah, talvez você encontre coisas óbvias.</p>
 </blockquote>
-
 <p>Sempre que leio algo ou assisto palestras acerca do assunto, poucas vezes pontuam os problemas que você ganha - sim, pois não tinha - ao utilizar microsserviços.</p>
-
 <h2 id="inspiração">Inspiração</h2>
-
 <p>Uma coisa que sempre me incomodou foi a a <em>&ldquo;glamourização&rdquo;</em> que se cria não só em torno do assunto como também do tal chamado &ldquo;hype&rdquo; nos setores e comunidades de tecnologia.</p>
-
 <p>Por participar ativamente da comunidade JavaScript sei que esses &ldquo;problemas&rdquo;
 são constantes nesse meio. Recorrência sobre: &ldquo;o framework que eu uso é
-melhor que o seu&rdquo;, ou, a um tempo atrás quando me indagaram &ldquo;nossa, você ainda não usa isso?&rdquo;, se referindo ao fato de eu não
+melhor que o seu&rdquo;, ou, a um tempo atrás quando me indagaram &ldquo;nossa, você ainda não usa isso?&quot;, se referindo ao fato de eu não
 usar <a href="https://yarnpkg.com/en/">yarn</a>, na época uma ferramenta recém lançada. Aliás, considerando o fato do <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">bash</a> ser de 1989,
 sim, o yarn ainda é algo recente, mas isso é assunto pra outro post.</p>
-
 <h2 id="desmitificando-microsserviços">Desmitificando Microsserviços</h2>
-
 <p>Microsserviços te ajudam a economizar com infraestrutura? Sim. Microsserviços
 tornam o processo de desenvolvimento e distribuição mais complexo? Sim.
 Microsserviços melhoram a manutenabilidade das suas aplicações? Sim. Microsserviços
 dificultam achar com maior rapidez o ponto certo de um erro na sua <em>stack</em>? Sim.</p>
-
 <p>São muitas as perguntas. As respostas podem ser negativas ou
 positivas e que para serem respondidas dependem do contexto passado, presente e futuro que você, sua equipe e
 sua empresa definem. A análise, o diálogo e a troca de experiências com outras
 empresas e pessoas é essencial para <del>tentar</del> obter sucesso.</p>
-
 <blockquote>
 <p>Sei que parece óbvio, mas: não vá para microsserviços só por ir, por <strong>&ldquo;hype&rdquo;</strong>. Definitivamente, não faça isso!</p>
 </blockquote>
-
-<p>Porém, como dizia um palestrante falando sobre microsserviços uma vez: &ldquo;apesar dos <em>cases</em> de sucessos da Netflix e AWS, lembre-se: você não é Netflix e nem AWS!&ldquo;.
+<p>Porém, como dizia um palestrante falando sobre microsserviços uma vez: &ldquo;apesar dos <em>cases</em> de sucessos da Netflix e AWS, lembre-se: você não é Netflix e nem AWS!&quot;.
 Isso é algo que concordo em parte, você não pode simplesmente comparar de forma
 crua. Provavelmente o seu serviço não tem <a href="https://www1.folha.uol.com.br/mercado/2018/04/netflix-atinge-1189-milhoes-de-assinantes.shtml">118,9 milhões de assinantes</a> e nem é responsável por <a href="http://fortune.com/2018/10/02/netflix-consumes-15-percent-of-global-internet-bandwidth/">15% do tráfego mundial da internet</a>, mas pode ter 1 milhão de acessos únicos mensais ou ter que operar com uma massa de dados muito grande, o que torna a ideia de evoluir a arquitetura mais palpável. Talvez ir para microsserviços seja a melhor saída mas saiba das dificuldades antes de escolher e aplicar essa arquitetura.</p>
-
 <p>Quando você e sua equipe resolverem seguir por esse caminho não será fácil, na
 verdade será bem difícil, e apesar de <del>talvez</del> vocês se livrarem de alguns
 problemas, ganharão outros, por isso reforço: pense, troque experiências, desenhe, arquitete antes de
 tomar qualquer decisão.</p>
-
 <h2 id="com-ou-sem-dor">Com ou sem &ldquo;dor&rdquo;?</h2>
-
 <p>Tive uma experiência em que um monolítico gerava muito esforço voltado pra manutenção - muitas vezes &ldquo;entregando software&rdquo;, porém, sem valor ao cliente. Era bem difícil fazer as
 coisas nele, não seguia padrões, não haviam testes, utilizava uma tecnologia que
 nos impossibilitava de <em>conteinerizar</em>, enfim: um <strong>caos</strong>. Depois de longas reuniões onde mensuramos os custos resolvemos então migrá-lo para uma arquitetura mais enxuta e que fosse
 possível alocá-lo junto com os nossos outros serviços em uma estrutura com recursos compartilhados utilizando <em><a href="https://kubernetes.io/">Kubernetes</a></em>.</p>
-
 <p>A &ldquo;dor&rdquo; veio e tivemos que tomar uma decisão naquele momento. Em seguida, devido
 ao sucesso, com mais experiência e segurança no que estávamos fazendo, começamos
 a distribuir responsabilidades desse serviço em outros utilizando <a href="https://www.nginx.com/">nginx</a> para fazer o roteamento progressivo.</p>
-
 <p>Fomos fazendo a distribuição aos poucos, movendo rota a rota, funcionalidade a
 funcionalidade, porque também teríamos que paralelizar migração e entrega
 de novas <em>features</em>.</p>
-
 <h2 id="pontos-de-atenção">Pontos de Atenção</h2>
-
 <ul>
-<li><p>É muito legal você poder utilizar recursos em diferentes linguagens para resolver problemas específicos, porém, antes de adotar essa arquitetura que envolva multilinguagens, tenha certeza que sua equipe está preparada e nivelada para dar manutenção e criar serviços nessas linguagens. Isso pode evitar que haja sobrecarga sobre algum membro.</p></li>
-
-<li><p>Outro problema recorrente é a complexidade para <em>debuggar</em> processos que envolvam
-mais de uma aplicação.</p></li>
-
-<li><p>Rodar o ambiente local com muitos microsserviços? Microfrontends?! Outro empecilho.</p></li>
-
-<li><p>Crie padrões de desenvolvimento para cada linguagem que você vai utlizar,
-automatize esse processo de verificação utilizando <em>pipelines</em>.</p></li>
-
-<li><p>Aliás, falando em automatização, já pensou ter que fazer deploy de tudo isso
+<li>
+<p>É muito legal você poder utilizar recursos em diferentes linguagens para resolver problemas específicos, porém, antes de adotar essa arquitetura que envolva multilinguagens, tenha certeza que sua equipe está preparada e nivelada para dar manutenção e criar serviços nessas linguagens. Isso pode evitar que haja sobrecarga sobre algum membro.</p>
+</li>
+<li>
+<p>Outro problema recorrente é a complexidade para <em>debuggar</em> processos que envolvam
+mais de uma aplicação.</p>
+</li>
+<li>
+<p>Rodar o ambiente local com muitos microsserviços? Microfrontends?! Outro empecilho.</p>
+</li>
+<li>
+<p>Crie padrões de desenvolvimento para cada linguagem que você vai utlizar,
+automatize esse processo de verificação utilizando <em>pipelines</em>.</p>
+</li>
+<li>
+<p>Aliás, falando em automatização, já pensou ter que fazer deploy de tudo isso
 depois de cada <em>Pull Request</em>? Sem condições. Automatize <del>se possível</del> todo o seu
-processo de integração e deploy.</p></li>
-
-<li><p>Priorize testes de integração, eles envidenciarão gargalos e inconsistências entre
+processo de integração e deploy.</p>
+</li>
+<li>
+<p>Priorize testes de integração, eles envidenciarão gargalos e inconsistências entre
 microsserviços. Se utiliza microfrontends e/ou biblioteca própria de
-componentes, <strong>faça</strong> testes end-to-end.</p></li>
-
-<li><p>Defina entre a equipe coisas básicas, como por exemplo, como funcionará nomenclatura de rotas. Use referências.</p></li>
-
-<li><p>Se utiliza <em>Docker</em> como ferramenta de container, recomendo o <a href="https://docs.docker.com/compose/">docker-compose</a> para &ldquo;orquestrar&rdquo; a estrutura de serviços localmente.</p></li>
+componentes, <strong>faça</strong> testes end-to-end.</p>
+</li>
+<li>
+<p>Defina entre a equipe coisas básicas, como por exemplo, como funcionará nomenclatura de rotas. Use referências.</p>
+</li>
+<li>
+<p>Se utiliza <em>Docker</em> como ferramenta de container, recomendo o <a href="https://docs.docker.com/compose/">docker-compose</a> para &ldquo;orquestrar&rdquo; a estrutura de serviços localmente.</p>
+</li>
 </ul>
-
 <p>Apesar dos <em>hypes</em>, existem sim as melhores ferramentas. Porém <del>como quase tudo
 nessa vida</del>, vai depender para qual
 finalidade que você quer utilizá-la. Existem as que
@@ -207,23 +196,18 @@ exigem uma curva de aprendizado maior e que entregam um excelente valor,
 outras nem tanto. Existem ferramentas plugáveis com curva de aprendizado quase
 nulas que também entregam excelentes resultados, outras nem tanto. Ou seja, não siga o fluxo. Procure prós e
 contras e principalmente qual se encaixa melhor no que você está construindo.</p>
-
 <p>Ferramentas servem para agilizar, automatizar, melhorar, tornar o seu trabalho
 mais produtivo, não atrasá-lo.</p>
-
 <blockquote>
 <p>Não faça refatoração e nem distribua sua aplicação em microsserviços
 precocemente. Se você acha que fez isso e está tendo mais trabalho para manter
 do que antes, <strong>reavalie a necessidade</strong>.</p>
 </blockquote>
-
-<h2 id="estimativas-microsserviços">Estimativas + Microsserviços</h2>
-
+<h2 id="estimativas--microsserviços">Estimativas + Microsserviços</h2>
 <p>Quando você tem várias etapas e serviços e é preciso criar estimativas, o
 processo acaba ficando um pouco mais difícil. Pode ser que hajam erros, porém,
 como ciclo base do <em>scrum</em>, faça sempre as <em>reviews</em> evidenciando onde houve o
 erro.</p>
-
 <p>Começamos a experimentar recentemente o mapeamento de aplicações x impacto, em
 um primeiro momento nos ajudou a visualizar o todo.</p>
 

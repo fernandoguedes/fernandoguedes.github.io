@@ -7,17 +7,17 @@
         <meta name="description" content="For redefine tabs to space (whatever many spaces, the development default is four) is very simple.
 Open the ~/.vimrc:
 vim ~/.vimrc So, paste the configuration into the file:
-set tabstop=4 &#34; The width of a TAB is set to 4. &#34; Still it is a \t. It is just that &#34; Vim will interpret it to be having &#34; a width of 4. set shiftwidth=4 &#34; Indents will have a width of 4 set softtabstop=4 &#34; Sets the number of columns for a TAB set expandtab &#34; Expand TABs to spaces Save and restart (:wq!">
+set tabstop=4 &#34; The width of a TAB is set to 4. &#34; Still it is a \t. It is just that &#34; Vim will interpret it to be having &#34; a width of 4. set shiftwidth=4 &#34; Indents will have a width of 4 set softtabstop=4 &#34; Sets the number of columns for a TAB set expandtab &#34;Expand TABs to spaces Save and restart (:wq!">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.58.0-DEV" />
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Short Tip: Vim - Redefine tabs to spaces">
 <meta property="og:description" content="For redefine tabs to space (whatever many spaces, the development default is four) is very simple.
 Open the ~/.vimrc:
 vim ~/.vimrc So, paste the configuration into the file:
-set tabstop=4 &#34; The width of a TAB is set to 4. &#34; Still it is a \t. It is just that &#34; Vim will interpret it to be having &#34; a width of 4. set shiftwidth=4 &#34; Indents will have a width of 4 set softtabstop=4 &#34; Sets the number of columns for a TAB set expandtab &#34; Expand TABs to spaces Save and restart (:wq!">
+set tabstop=4 &#34; The width of a TAB is set to 4. &#34; Still it is a \t. It is just that &#34; Vim will interpret it to be having &#34; a width of 4. set shiftwidth=4 &#34; Indents will have a width of 4 set softtabstop=4 &#34; Sets the number of columns for a TAB set expandtab &#34;Expand TABs to spaces Save and restart (:wq!">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://fguedes.me/2015/05/29/tip-converting-tabs-to-space-vim/">
         <link rel="stylesheet" href="https://fguedes.me/dist/styles.css">
@@ -116,21 +116,16 @@ if (!doNotTrack) {
     
 
     <p>For redefine tabs to space (whatever many spaces, the development default is four) is very simple.</p>
-
 <p>Open the ~/.vimrc:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vim ~/.vimrc</code></pre></div>
-
 <p>So, paste the configuration into the file:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">set tabstop<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>       <span style="color:#e6db74">&#34; The width of a TAB is set to 4.
 </span><span style="color:#e6db74">                    &#34;</span> Still it is a <span style="color:#ae81ff">\t</span>. It is just that
                     <span style="color:#e6db74">&#34; Vim will interpret it to be having
-</span><span style="color:#e6db74">                    &#34;</span> a width of <span style="color:#ae81ff">4</span>.
+</span><span style="color:#e6db74">                    &#34;</span> a width of 4.
 set shiftwidth<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>    <span style="color:#e6db74">&#34; Indents will have a width of 4
 </span><span style="color:#e6db74">set softtabstop=4   &#34;</span> Sets the number of columns <span style="color:#66d9ef">for</span> a TAB
-set expandtab       <span style="color:#e6db74">&#34; Expand TABs to spaces</span></code></pre></div>
-
+set expandtab       <span style="color:#e6db74">&#34;</span><span style="color:#e6db74"> Expand TABs to spaces</span></code></pre></div>
 <p>Save and restart (:wq!) vim.</p>
 
 </div>

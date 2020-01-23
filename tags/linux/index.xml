@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on ~fguedes 🕱</title>
@@ -21,7 +21,7 @@
       <description>For redefine tabs to space (whatever many spaces, the development default is four) is very simple.
 Open the ~/.vimrc:
 vim ~/.vimrc So, paste the configuration into the file:
-set tabstop=4 &amp;#34; The width of a TAB is set to 4. &amp;#34; Still it is a \t. It is just that &amp;#34; Vim will interpret it to be having &amp;#34; a width of 4. set shiftwidth=4 &amp;#34; Indents will have a width of 4 set softtabstop=4 &amp;#34; Sets the number of columns for a TAB set expandtab &amp;#34; Expand TABs to spaces Save and restart (:wq!</description>
+set tabstop=4 &amp;#34; The width of a TAB is set to 4. &amp;#34; Still it is a \t. It is just that &amp;#34; Vim will interpret it to be having &amp;#34; a width of 4. set shiftwidth=4 &amp;#34; Indents will have a width of 4 set softtabstop=4 &amp;#34; Sets the number of columns for a TAB set expandtab &amp;#34;Expand TABs to spaces Save and restart (:wq!</description>
     </item>
     
     <item>

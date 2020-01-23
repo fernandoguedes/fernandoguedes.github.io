@@ -8,7 +8,7 @@
 Mão na Massa Bom, para saber a codificação de um arquivo basta digitar no terminal:">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.58.0-DEV" />
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Codificação de arquivos no Linux">
@@ -111,28 +111,17 @@ if (!doNotTrack) {
         <div class="post-content clearfix" itemprop="articleBody">
     
 
-    
-
-<p>Vou iniciar o blog, colocando a resolução de um problema que eu estava enfrentando com projetos com vários programadores utilizando o git como versionamento. <br></p>
-
+    <p>Vou iniciar o blog, colocando a resolução de um problema que eu estava enfrentando com projetos com vários programadores utilizando o git como versionamento. <!-- raw HTML omitted --></p>
 <p>Acontece que algumas IDEs estavam codificações diferentes, e quando o arquivo era aberto por outro programador acabava corrompendo tudo. Atrás de uma solução rápida, descobri que a codificação e até mesmo a alteração da codificação de um arquivo pode ser feita via terminal.</p>
-
 <h2 id="mão-na-massa">Mão na Massa</h2>
-
 <p>Bom, para saber a codificação de um arquivo basta digitar no terminal:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">file -i arquivo.php
 arquivo.php: text/x-php; charset<span style="color:#f92672">=</span>us-ascii</code></pre></div>
-
 <p>Para convertê-lo basta utilizar o comando <strong>iconv</strong> ou <strong>recode</strong>:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">iconv arquivo.php --to-code UTF-8 &gt; arquivo2.php
 recode UTF-8 arquivo.php</code></pre></div>
-
 <p>O post tá bem resumindo para solucionar esse problema em específico, mas se deseja ler mais:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">man iconv</code></pre></div>
-
 <p>Para ver a lista de formatos suportados:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">iconv --list</code></pre></div></p>
 

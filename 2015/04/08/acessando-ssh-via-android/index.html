@@ -9,7 +9,7 @@ E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto
 Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.58.0-DEV" />
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Acessando SSH via Android">
@@ -105,7 +105,7 @@ if (!doNotTrack) {
         
         <br />
         <br />
-        <span>Estimated reading time: 2 min</span>
+        <span>Estimated reading time: 1 min</span>
         
     </p>
 </header>
@@ -113,73 +113,25 @@ if (!doNotTrack) {
         <div class="post-content clearfix" itemprop="articleBody">
     
 
-    
-
-<p>Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?</p>
-
+    <p>Estava na fila do banco, naquele marasmo, naquela demora, e pensando: e se eu pudesse acessar meu servidor através do celular e ir adiantando o que eu pudesse?</p>
 <p>E se eu precisasse fazer algo urgente e não tivesse nenhum computador por perto ou um <em>dashboard</em> que pudesse ser acessado via browser?</p>
-
 <p>Então, comecei a pesquisar meios através do Android de fazer isso, e vou compartilhar com vocês a maneira mais fácil que eu encontrei.</p>
-
 <h3 id="instalando-o-app-e-gerando-a-chave-pública-ssh-key">Instalando o app e gerando a chave pública (ssh-key)</h3>
-
 <p>Entre os diversos apps que eu testei, o mais simples e objetivo foi o <a href="https://play.google.com/store/apps/details?id=com.anstudios.ssh">SSH Client</a>, por isso o escolhi.</p>
-
 <p>Primeiramente, é necessário gerar uma chave pública no seu Android. Ela será usada pelo seu servidor para autorizar o acesso do seu dispositivo à ele.</p>
-
 <p>Abra o aplicativo</p>
-
 <p><em>Tip: clique na imagem para visualizá-la inteira</em></p>
-
-<div class="post-image" style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
-    <img class="post-image" src="/assets/2015-04-08/ss_1.png" />
-</div>
-
+<!-- raw HTML omitted -->
 <p>Clique no menu, gerar.</p>
-
-<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
-    <img class="post-image" src="/assets/2015-04-08/ss_2.png" />
-</div>
-<br />
-Siga os passos, escolha o nome, a forma de criptografia e senha, se desejar.
-
-<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
-    <img class="post-image" src="/assets/2015-04-08/ss_3.png" />
-</div>
-<br />
-Clique no menu novamente, e copie a chave pública.
-
-<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
-    <img class="post-image" src="/assets/2015-04-08/ss_4.png" />
-</div>
-<br />
-
-### Servidor
-
-Para conseguir acessar, em definitivo, você precisa adicionar o acesso à chave ao servidor.
-
-Com acesso root, adicione a chave gerada no Android ao arquivo que se encontra em ~/.ssh/authorized_keys, feito isso, o acesso está liberado, enjoy!
-
-<div style="overflow: hidden; width: 540px; height: 340px; text-align: center;">
-    <img class="post-image" src="/assets/2015-04-08/ss_5.png" />
-</div>
-
-<div id="image-modal"></div>
-
-<p><link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script>
-    $(&lsquo;.post-image&rsquo;).on(&lsquo;click&rsquo;, function() {
-        var src = $(this).attr(&lsquo;src&rsquo;);
-    var img = &lsquo;<img src="{src}"/>&rsquo;.replace(&lsquo;{src}&rsquo;, src);
-    $(&lsquo;#image-modal&rsquo;).html(img);
-    $(&lsquo;#image-modal&rsquo;).dialog({
-        modal: true
-    });
-    $(&lsquo;.ui-dialog-titlebar&rsquo;).removeClass(&lsquo;ui-widget-header&rsquo;);
-    });
-</script></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="servidor">Servidor</h3>
+<p>Para conseguir acessar, em definitivo, você precisa adicionar o acesso à chave ao servidor.</p>
+<p>Com acesso root, adicione a chave gerada no Android ao arquivo que se encontra em ~/.ssh/authorized_keys, feito isso, o acesso está liberado, enjoy!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 </div>
 
