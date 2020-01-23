@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fguedes.me/tags/functions/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/google-cloud/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/2020/01/22/introducao-google-cloud-functions-e-serverless/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/serverless/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/tags/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fguedes.me/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fguedes.me/tags/cordel/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
@@ -18,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://fguedes.me/tags/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fguedes.me/tags/viagem/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fguedes.me/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -370,22 +390,6 @@
   <url>
     <loc>https://fguedes.me/tags/utf-8/</loc>
     <lastmod>2013-09-23T18:31:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fguedes.me/tags/functions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fguedes.me/tags/google-cloud/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fguedes.me/2020/22/01/introducao-google-cloud-functions-e-serverless/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fguedes.me/tags/serverless/</loc>
   </url>
   
 </urlset>

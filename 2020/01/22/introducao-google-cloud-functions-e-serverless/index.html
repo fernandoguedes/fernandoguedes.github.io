@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Introdução a Google Cloud Functions e Arquiteturas Serverless &middot; Luís Fernando Guedes</title>
+        <meta name="description" content="Antes, gostaria de contextualizar um pouco sobre essas duas coisas: Serverless e Functions.
+Sobre Serverless e Functions Afinal, o que é Serverless? Fazendo uma tradução livre, seria &ldquo;arquitetura sem servidor&rdquo;. Mas como isso? Segundo esse link da AWS seria você poder ter aplicações e serviços sem necessariamente ter que configurar uma infraestrutura, por exemplo. Ou seja, esse trabalho fica por conta dos Cloud Providers que configuram, gerenciam, monitoram e escalam. Cuidam da saúde da sua aplicação sem que necessariamente você tenha que montar um servidor, instalar um sistema operacional, habilitar regras de segurança, e por aí vai&hellip; Fora os trabalhos e complexidades adicionais que exigem quando você administra servidores.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.64.0-DEV" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Introdução a Google Cloud Functions e Arquiteturas Serverless">
+<meta property="og:description" content="Antes, gostaria de contextualizar um pouco sobre essas duas coisas: Serverless e Functions.
+Sobre Serverless e Functions Afinal, o que é Serverless? Fazendo uma tradução livre, seria &ldquo;arquitetura sem servidor&rdquo;. Mas como isso? Segundo esse link da AWS seria você poder ter aplicações e serviços sem necessariamente ter que configurar uma infraestrutura, por exemplo. Ou seja, esse trabalho fica por conta dos Cloud Providers que configuram, gerenciam, monitoram e escalam. Cuidam da saúde da sua aplicação sem que necessariamente você tenha que montar um servidor, instalar um sistema operacional, habilitar regras de segurança, e por aí vai&hellip; Fora os trabalhos e complexidades adicionais que exigem quando você administra servidores.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fguedes.me/2020/01/22/introducao-google-cloud-functions-e-serverless/">
+        <link rel="stylesheet" href="https://fguedes.me/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-133737351-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="~fguedes 🕱" href="https://fguedes.me/">~fguedes 🕱</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://fguedes.me/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" title="Gitlab" href="https://gitlab.com/fguedes">
+                                <i class="fa fa-gitlab"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/fernandoguedes">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" title="Stack Overflow" href="https://pt.stackoverflow.com/users/11940/lu%c3%ads-fernando-guedes">
+                                <i class="fa fa-stack-overflow"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" title="LinkedIn" href="https://linkedin.com/in/lfernandoguedes/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" title="Email" href="mailto:lfernandoguedes@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Introdução a Google Cloud Functions e Arquiteturas Serverless</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2020-01-22" itemprop="datePublished">Jan 22, 2020</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://plus.google.com/u/0/&#43;Lu%c3%adsFernandoGuedes" itemprop="url" rel="author">Luís Fernando Guedes</a>
+            </span>
+        </span>
+        
+        <br />
+        <br />
+        <span>Estimated reading time: 4 min</span>
+        
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Antes, gostaria de contextualizar um pouco sobre essas duas coisas: <strong>Serverless</strong> e <strong>Functions</strong>.</p>
+<h1 id="sobre-serverless-e-functions">Sobre Serverless e Functions</h1>
+<p>Afinal, o que é Serverless? Fazendo uma tradução livre, seria &ldquo;arquitetura sem servidor&rdquo;. Mas como isso? Segundo esse <a href="https://aws.amazon.com/pt/lambda/serverless-architectures-learn-more/">link</a> da AWS seria você poder ter aplicações e serviços sem necessariamente ter que configurar uma infraestrutura, por exemplo. Ou seja, esse trabalho fica por conta dos Cloud Providers que configuram, gerenciam, monitoram e escalam. Cuidam da saúde da sua aplicação sem que necessariamente você tenha que montar um servidor, instalar um sistema operacional, habilitar regras de segurança, e por aí vai&hellip; Fora os trabalhos e complexidades adicionais que exigem quando você administra servidores. Functions entram como um recurso Serverless. É a possibilidade de servir através de zero ou pouquíssimas configurações uma determinada função.</p>
+<p>Mas camarada, me conta, já estou habituado a tomar conta de servidores, na minha empresa tenho pessoas alocadas pra isso, preciso mesmo desse tal de Serverless? Não! Nada é bala de prata na tecnologia, absolutamente nada. Cada solução e ferramenta se encaixa melhor em situação X ou Y. Na minha modesta opinião, acredito em arquiteturas serverless principalmente para validações de produto e partes específicas de uma aplicação. Lembre-se que ter a infraestrutura em suas mãos ainda te dá o controle total de configurar para suas especificidades.</p>
+<p>Um outro ponto interessante é a respeito da redução de custos que uma arquitetura desse tipo pode gerar, ao não ter um servidor alocado permanentemente mesmo em momentos de ociosidade, onde seu serviço exige menos recursos, você paga pelo total. Utilizando serviços provisionados pela nuvem, você paga apenas pelo consumo. E no caso da Google Cloud Functions, pasmem, o serviço <a href="https://cloud.google.com/functions/pricing">não cobra</a> até os dois primeiros <strong>milhões</strong> de invocações.</p>
+<h1 id="motivação">Motivação</h1>
+<p>Estou trabalhando em um projeto pessoal chamado &ldquo;NoCinema&rdquo; que consiste em um crawler que extrai e parseia os dados de sessões dos filmes por cinema e salva essas informações em um banco de dados não relacional - para posteriormente ser servido através de uma API. Já faz algum tempo que trabalho nisso, entre algumas abordagens pra tentar deixar o processo e a rotina mais automática possível, tentei utilizar módulos dentro de um conjunto de containers através do Docker Swarm na Digital Ocean, usar soluções da IBM Cloud, mas nenhuma atendeu melhor essa necessidade - além de ter custo zero - do que com os recursos da Google Cloud que possui &ldquo;free tiers&rdquo; interessantes.</p>
+<h1 id="caso-de-uso-nocinema">Caso de uso &ldquo;NoCinema&rdquo;</h1>
+<p><img src="/cloud-functions/flow.png" alt="Fluxo"></p>
+<p>Acima, o fluxo que eu desenvolvi utilizando 100% recursos da Google Cloud. Aqui vamos limitar o escopo apenas ao Cinesystem.</p>
+<p>👉 Escreverei mais textos abordando de forma completa essa arquitetura.</p>
+<ol>
+<li>
+<p>Agendei um job utilizando <a href="https://cloud.google.com/scheduler/">Cloud Scheduler</a>, serviço semelhante ao &ldquo;unix cron&rdquo;. Nesse caso, após a meia noite - todo dia - ele faz um <code>GET</code> para uma rota que é servida através das Cloud Functions;</p>
+</li>
+<li>
+<p>Gandalf (Node.js): O primeiro serviço que possui todos os dados do cinema como cidade, local, e url (<a href="https://github.com/nocinema/gollum/blob/master/modules/cinesystem.crawler.class.js#L109">coletadas anteriormente através desse script</a>), recebe o request, parseia as URLs uma a uma e as enfileira em um tópico Pub/Sub;</p>
+</li>
+<li>
+<p>Gollum (Node.js): Por sua vez, essa etapa é responsável por receber as mensagens com as urls informadas, varrer o site e extrair as informações das sessões. Após a coleta, os dados são formatados em um JSON e enfileirados em um outro tópico que de fato armazenará as informações;</p>
+</li>
+<li>
+<p>Orcs (Go): Sua única responsabilidade é receber esses dados, adicionar datas e salvá-los em um banco de dados não relacional.</p>
+</li>
+</ol>
+<p>Com exceção do primeiro passo, o processo todo funciona de forma assíncrona e possibilita o aumento de recursos em alguma etapa, caso essa, represente um gargalo.</p>
+<h1 id="primeira-função-o">Primeira Função \o/</h1>
+<p>Instale a <a href="https://cloud.google.com/sdk/gcloud/">CLI do Google Cloud SDK</a> e no terminal execute os seguintes comandos:</p>
+<pre><code>$ mkdir faas-example
+$ cd faas-example
+$ npm init --yes
+$ npm i kapti --save
+$ touch index.js
+</code></pre><p>Abra o arquivo <code>index.js</code> e adicione o código abaixo. Ele receberá uma chamada <code>GET</code> com uma query string <code>url</code> e retornará o título da página.</p>
+<pre><code>const kapti = require('kapti') // NPM que retorna o DOM de uma URL
+
+exports.helloFunctions = async (req, res) =&gt; {
+  try {
+    const title = await _getPageTitle(req.query.url)
+
+    res.status(200).send({ title })
+  } catch (e) {
+    console.error(e)
+    res.status(500).send(e)
+  }
+}
+
+const _getPageTitle = async (url) =&gt; {
+  const $ = await kapti.getStaticPage(url)
+  return $('title').text()
+}
+</code></pre><p>Para a publicação da função, basta:</p>
+<pre><code>$ gcloud functions deploy helloFunctions --runtime nodejs8 --trigger-http
+</code></pre><p>Caso ocorra sucesso ele retornará algumas informações, e entre elas a url onde a função está publicada e acessível. Viu como é simples?</p>
+<pre><code>$ curl &quot;https://us-central1-lfernandoguedes.cloudfunctions.net/helloFunctions?url=https://fguedes.me&quot;
+{&quot;title&quot;:&quot;~fguedes 🕱 · Luís Fernando Guedes&quot;}
+</code></pre><hr>
+<p>Escreverei mais algumas partes relacionadas ao uso de Cloud Functions e como podemos nos beneficiar dessa tecnologia, além de abordar outros tópicos relacionados como monitoramento e escalabilidade nesse tipo de arquitetura.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/serverless/">serverless</a>, 
+            
+                <a href="/tags/google-cloud/">google cloud</a>, 
+            
+                <a href="/tags/functions/">functions</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Introdu%c3%a7%c3%a3o%20a%20Google%20Cloud%20Functions%20e%20Arquiteturas%20Serverless&url=https%3a%2f%2ffguedes.me%2f2020%2f01%2f22%2fintroducao-google-cloud-functions-e-serverless%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ffguedes.me%2f2020%2f01%2f22%2fintroducao-google-cloud-functions-e-serverless%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2ffguedes.me%2f2020%2f01%2f22%2fintroducao-google-cloud-functions-e-serverless%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fguedes" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="~fguedes 🕱" href="https://fguedes.me/">~fguedes 🕱</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://fguedes.me/js/jquery-1.11.3.min.js"></script>
+        <script src="https://fguedes.me/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://fguedes.me/js/scripts.js"></script>
+    </body>
+</html>
+
